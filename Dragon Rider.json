@@ -1,0 +1,881 @@
+{
+	"class": [
+		{
+			"authors": [
+				"Doctor Necrotic"
+			],
+			"version": "1.0",
+			"url": "https://www.dandwiki.com/wiki/Dragon_Rider,_Variant_(5e_Class)",
+			"name": "Dragon Rider",
+			"source": "Homebrew",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"cha"
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Cantrips Known"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shields"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [
+					"None"
+				],
+				"skills": {
+					"choose": 3,
+					"from": [
+						"Athletics",
+						"Acrobatics",
+						"Animal Handling",
+						"Intimidation",
+						"Perception",
+						"Persuasion",
+						"Stealth"
+					]
+				}
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) Leather armor or (b) a breastplate.",
+					"(a) Any 2 Martial Weapons(And Ammunition if applicable) or (b) any Martial Melee Weapon and a Shield.",
+					"An Arcane Focus.",
+					"(a) A dungeoneer's pack or (b) an explorer's pack"
+				]
+			},
+			"classFeatures":[
+				[
+					{
+						"name": "Draconic Speech",
+						"entries": [
+							"In order to communicate with and tame dragons, you have learned thier language. From 1st level on you can speak, read, and write in Draconic."
+						]
+					},
+					{
+						"name": "First Dragon",
+						"entries": [
+							"When you first began your training, you were given a dragon of your very own. You start off your journey with a Pseudodragon. This dragon acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. And as you gain levels in this class, your dragon grows in power.",
+							"If you are unconcious or absent, your dragon does its best to protect itself and you.",
+							"In the event of your dragons death, you can obtain another one by spending 8 hours magically bonding with another dragon that isn’t hostile to you, either the same color of dragon as before or a different color of the same type (Metallic or Chromatic)."
+						]
+					},
+					{
+						"name": "Draconic Bond",
+						"entries": [
+							"When you received your first dragon, you formed a special bond with it and subsequently all others. Choose Dragon Knight, Dragon Mage, or Dragon Brother. You gain features from your bond at 1st, 3rd, 6th, 11th, 14th, 17th, and 20th levels."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Telepathy",
+						"entries": [
+							"At 2nd level, you have learned to speak with your dragons with thoughts. You may telepathically communicate with your dragon to a range of 1 mile."
+						]
+					},
+					{
+						"name": "Draconic Spellcasting",
+						"entries": [
+							"When you bonded with your dragon, it's magical power spilled into you, allowing you to cast Sorcerer Spells However, since your bond is not by blood, you only have half casting.",
+							{
+								"type": "entries",
+								"name": "Cantrips",
+								"entries": [
+									"At 1st level choose 2 cantrips from the Sorcerers Spell List. You learn additional cantrips at 5th, 9th, 13th, and 16th level."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The Dragon Rider table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell Burning Hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spells Known of 1st Level and Higher",
+								"entries": [
+									"At 2nd level you may choose 2 1st level spells from the sorcerers spell list. Each level After 2nd, you may select another sorcerer spell of a level of which you have spell slots for to learn."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Charisma is your spellcasting ability for your Sorcerer spells. You use your Charisma whenever a Sorcerer spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Sorcerer spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"cha"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"cha"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Focus",
+								"entries": [
+									"You can use an arcane focus as a spellcasting focus for your spells."
+								]
+							}
+						]
+					},
+					{
+						"name": "Sense Dragon",
+						"entries": [
+							"Starting at 2nd level, you are able to sense the presence of nearby dragons. You know if a dragon is within 1 mile of you, and in what direction. You also can sense its type. However you cannot discern the age or number of the dragon(s) present."
+						]
+					}
+				],
+				[
+					{
+						"name": "Bond Feature",
+						"entries": [
+							"At 3rd level you gain a feature from your Draconic Bond."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Dragon Age: Wyrmling",
+						"entries": [
+							"When you reach 5th level, your psuedodragon becomes a type of Dragon Wyrmling of your choice."
+						]
+					}
+				],
+				[
+					{
+						"name": "Extra Attack",
+						"entries": [
+							"Starting at 6th level you can attack twice instead of once on an Attack action."
+						]
+					},
+					{
+						"name": "Bond Feature",
+						"entries": [
+							"At 6th level you gain a feature from your Draconic Bond."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Dragon Age: Young",
+						"entries": [
+							"When you reach 10th level, your first dragon becomes a young adult dragon. For example if you chose a Bronze Dragon Wyrmling it would become a Young Bronze Dragon."
+						]
+					}
+				],
+				[
+					{
+						"name": "Bond Feature",
+						"entries": [
+							"At 11th level you gain a feature from your Draconic Bond."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Bond Feature",
+						"entries": [
+							"At 14th level you gain a feature from your Draconic Bond."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Dragon Age: Adult",
+						"entries": [
+							"When you reach 15th level, your first dragon becomes an adult dragon. For example your Young Bronze Dragon becomes an Adult Bronze Dragon."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Bond Feature",
+						"entries": [
+							"At 18th level you gain a feature from your Draconic Bond."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Bond Feature",
+						"entries": [
+							"At 20th level you gain a feature from your Draconic Bond."
+						],
+						"gainSubclassFeature": true
+					},
+					{
+						"name": "Dragon Age: Ancient",
+						"entries": [
+							"When you reach 20th level, your first dragon becomes an ancient dragon. for example an Adult Bronze Dragon would mature into an ancient Bronze Dragon. You may also attempt to tame ancient dragons."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Draconic Bonds",
+			"subclasses": [
+				{
+					"name": "Dragon Mage",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Dragon Mage",
+								"entries": [
+									"Dragon Mages use their dragons to fuel spells and other magical effects, suffusing their spells with draconic power."
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Conversion",
+										"entries":[
+											"Starting at 3rd level, you may convert your spell damage type to match the breath weapon of your first dragon."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Draconic Resistance",
+										"entries":[
+											"Your draconic bond has granted you resistance to magic. At 6th level, you gain advantage on saving throws made against your dragon's element and resistance to that element."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dragon Spellcasting",
+										"entries": [
+											"As the bond between you and your first dragon grows, you may share your magical knowledge with it. At 11th level, Your first dragon learns one cantrip of your choice that you know. The dragons CR acts as its character level for the purpose of damage calculation."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dragon Scales",
+										"entries": [
+											"At 14th level your skin becomes scaley, giving you +3 to AC against physical and magical attacks."
+										]
+									}
+								]
+							}
+						],
+						[
+								{
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Enhanced Dragon's Breath",
+											"entries": [
+												"Starting at 18th level, you may expend a spell slot of 1st level or higher to magically enhance your dragons breath attack. If you do so, choose one of the following options:",
+												"Increase the number of damage dice of your dragons breath attack by the level of the spell slot used.",
+												"Increase the save DC of your dragons breath attack by the level of the spell slot used."
+											]
+										}
+									]
+								}
+						],
+						[
+								{
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Draconic Conduit",
+											"entries": [
+												"When you reach 20th level, your bond with your dragon has become so strong that you may tap into your dragons power to fuel your spells. 3 times a day, you may cast a spell through your dragon. To do this, You must take a bonus action to infuse your dragon with the magic. Then as a bonus action on its turn, the dragon casts the spell. This spell is cast at its highest level and does not use up a spell slot."
+											]
+										}
+									]
+								}
+						]
+					],
+					"source": "Homebrew",
+					"shortName": "Dragon Mage"
+				},
+				{
+					"name": "Dragon Knight",
+					"subclassFeatures": [
+						[
+							{	
+								"name": "Dragon Knight",
+								"entries" : [
+									"Dragon Knights seek to bring out the physical prowess of their dragons, and are often brutal warriors in the field of battle.",
+									{
+										"name": "Dragon Knight Fighting Style",
+										"entries": [
+											"A Dragon Knight adopts a fighting style to better utilize his dragon in combat.",
+												{
+														"type": "options",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Archery",
+																"entries": [
+																	"You get +2 to attack rolls made with ranged weapons."
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Brutal",
+																"entries": [
+																	"When you hit a creature of large size or smaller with a two-handed weapon attack, the creature must make a strength saving throw equal to 8+ your proficiency bonus + your strength modifier or be knocked prone."
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Protection",
+																"entries": [
+																	"If an ally within 5 feet of you is hit with a weapon attack, you may use your reaction to step in front of the ally. If the enemies attack roll is less than your AC, the attack misses. If it is equal or higher than your AC you take the damage in place of your ally."
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Two Weapon Fighting",
+																"entries": [
+																	"You can add your ability modifier to your attacks made with the weapon you are wielding in your offhand."
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Mounted Archery",
+																"entries": [
+																	"While you are mounted, you can use a bonus action to make a single weapon attack with a ranged weapon you are proficient in. If you do so, you cannot attack a creature beyond the weapon's normal range."
+																]
+															}
+														]
+												}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"name": "Art of War",
+										"entries": [
+											"Starting at level 3 you gain training in 2 of the weapon styles from the table below, and you may utilize a single weapon style when you make an attack, based on your current weapon.",
+												{
+														"type": "options",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Crush Dance (Swords/Hammers)",
+																"entries": [
+																	"When you take the attack action and your attack(s) connect, you may make a secondary attack against the same target with the same weapon; you do not add your modifier to the damage of this attack. "
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Cross Slash (Swords/Axes)",
+																"entries": [
+																	"When you take the attack action, your attack connects, and there is another target within your reach, you may add 2 to the secondary target's AC. If your original attack would also connect, you also attack them, you do not add your modifier to this damage. "
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Spinning Cane (Staffs)",
+																"entries": [
+																	"You may make two additional attacks when you use the attack action; you do not add your modifier to these attack or damage rolls and you must move at least 5 feet between each attack. "
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Pinning Shot (Ranged)",
+																"entries": [
+																	"When you take the attack action you may take a penalty to your attack roll of 2; if the attack connects they make a Dexterity save against your attack. If they fail, then you pin the target (if possible) to the floor, forcing them to take a bonus action and half their movement to remove the projectile safely or be restrained. "
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Flurry Of Styx (Unarmed)",
+																"entries": [
+																	" When you make an unarmed strike you may make 2 attacks; if both attacks connect, you may push the target of the second attack 5 feet from you. "
+																]
+															},
+															{
+																"type": "entries",
+																"name": "Bone Crusher (Two-handed)",
+																"entries": [
+																	"When you take the attack action you place a large amount of force with your attack, adding a 1d6 of weapon damage, and if you roll a 6 on the extra die they are knocked prone."
+																]
+															}
+														]
+												}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Draconic Resistance",
+										"entries": [
+											"Spending so much time battling with your dragon has made you accustomed to its breath attack. At 6th level you become resistant to the damage type of your dragons breath weapon."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Draconic Prowess",
+										"entries": [
+											"Your connection to the dragons becomes deeper, granting you dragonlike speed. Starting at 11th level, You may make three attacks instead of two when you take the attack action on your turn. In addition your speed increases by 10 feet."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "entries",
+								"name": "Draconic Imbuement",
+								"entries": [
+									"Starting at level 14, your Dragons magic courses through your weapons with every strike you make. Once per turn you can choose to deal an extra 2d8 of your Dragon's damage type when you hit with a melee weapon attack. Your weapons also radiate minor magic from your draconic bond causing every attack you make to be magical for the purposes of overcoming resistances and immunities to nonmagical slashing, piercing, and bludgeoning damage."
+								]
+							}
+						],
+						[
+							{
+								"type": "entries",
+								"name": "Dragon Fury",
+								"entries": [
+									"At 18th level you may use an action to merge your dragon's spirit with yourself; while merged, you crackle with elemental energy, all of your attacks gain an extra 2d10 damage of your dragon's element, you gain an extra attack when you take the attack action (which stacks with extra attack), and you ignore resistance and immunities to your physical attacks. This lasts for 1 minute and you may use this only once per long rest. While in this form, you gain temporary hit points equal to half your dragon's health; if it is reduced to 0, the merge ends and your dragon falls unconscious. When you revert back, the dragon's health becomes double the remaining temporary health points. (Dragon imbuement cannot be used during this form)"
+								]
+							}
+						],
+						[
+							{
+								"type": "entries",
+								"name": "Draconic Action",
+								"entries": [
+									"At 20th level your prowess has reached its pinnacle. You may now take 1 legendary action to make a weapon attack or cast a spell with a casting time of 1 action or less."
+								]
+							}
+						]
+					],
+					"source": "Homebrew",
+					"shortName": "Dragon Knight"
+				},
+				{
+					"name": "Dragon Brother",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Dragon Brother",
+								"entries": [
+									"Dragon Brothers bond with their dragons in order to become like them.",
+										{
+											"type": "entries",
+											"name": "Dragon Scales",
+											"entries": [
+												"Starting at 1st level, your skin is replaced by a thick layer of dragon scales. You cannot wear armor, but your AC is equal to 13+ your dexterity modifier."
+											]
+										}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dragon Claws",
+										"entries":[
+											"When you reach 3rd level, You grow a set of dragon claws on each hand. These claws count as finesse magic weapons that deal 1d6 slashing damage each on a hit. This damage of each claw is increased by 1d6 with each draconic bond feature gained."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dragon Tail",
+										"entries": [
+											"At 6th level, you grow a scaly tail. This tail is a finesse magic weapon that deals 3d8 blugeoning damage in a 5 foot radius. Any creature hit by this attack must make a strength saving throw equal to 8 + your strength/dexterity modifier plus your proficiency bonus or be knocked prone."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dragon Wings",
+										"entries": [
+											"When you reach 11th level you grow a pair of dragon wings. You now have a fly speed of 60 feet."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+											"type": "entries",
+											"name": "Dragon Breath",
+											"entries": [
+												"Starting at 14th level, you may use the breath attack(s) of your first dragon. This includes saving throw DCs, damage dice, and modifiers."
+											]
+									}
+								]
+							}
+						],
+						[
+								{
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Dragon Speed",
+											"entries": [
+												"At 17th level you have become as swift as a dragon. Your walk speed is now 60 feet and your fly speed is now 100 feet."
+											]
+										}
+									]
+								}
+						],
+						[
+								{
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Dragon Form",
+											"entries": [
+												"At 20th level, You have actually become a dragon. Choose 1 Ancient Dragon. Once per long rest, you gain the ability to polymorph into that dragon at will as per the True Polymorph Spell. However you may shapeshift back into your true form at any time."
+											]
+										}
+									]
+								}
+						]
+					],
+					"source": "Homebrew",
+					"shortName": "Dragon Brother"
+				}
+			]
+		}
+	]
+}
