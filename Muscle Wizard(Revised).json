@@ -1,0 +1,1010 @@
+{
+	"class": [
+		{
+			"authors": [
+				"Tyeia"
+			],
+			"version": "1.0",
+			"url": "https://www.dandwiki.com/wiki/Muscle_Wizard_(5e_Class)",
+			"name": "Muscle Wizard(Revised)",
+			"source": "Homebrew",
+			"hd": {
+				"number": 1,
+				"faces": 12
+			},
+			"proficiency": [
+				"str",
+				"int"
+			],
+			"classTableGroups": [
+					{
+						"colLabels": [
+							"Brutal Fist"
+						],
+						"rows":[
+							[
+								"1d4"
+							],
+							[
+								"1d4"
+							],
+							[
+								"1d4"
+							],
+							[
+								"1d4"
+							],
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"2d4"
+						],
+						[
+							"2d4"
+						],
+						[
+							"2d4"
+						],
+						[
+							"2d4"
+						],
+						[
+							"2d4"
+						],
+						[
+							"2d4"
+						],
+						[
+							"2d6"
+						],
+						[
+							"2d6"
+						],
+						[
+							"2d6"
+						],
+						[
+							"2d8"
+						]
+					]
+				},
+				{	
+					"colLabels": [
+						"Cantrips Known"
+					],
+					"rows": [
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{	
+					"title": "Spell Slots per Spell Level",
+					"subclasses":[
+						{
+							"name": "Way of the Open Mind",
+							"source": "Homebrew"
+						}
+					],
+					"colLabels": [
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th",
+						"6th",
+						"7th",
+						"8th",
+						"9th"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				},
+				{	
+					"title": "Spell Slots per Spell Level",
+					"subclasses":[
+						{
+							"name": "Way of the Closed Fist",
+							"source": "Homebrew"
+						}
+					],
+					"colLabels": [
+						"1st",
+						"2nd",
+						"3rd",
+						"4th",
+						"5th"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3
+						]
+					]
+				}				
+			],
+			"startingProficiencies": {
+				"armor": [
+					"None"
+				],
+				"weapons": [
+					"unarmed",
+					"simple",
+					"gauntlet types"
+				],
+				"tools": [
+					"None"
+				],
+				"skills": {
+					"choose": 2,
+					"from": [
+						"Athletics",
+						"Arcana",
+						"Insight",
+						"Intimidation",
+						"Medicine",
+						"Religion"
+					]
+				}
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) A brass knuckle or (b) Two steel gauntlets.",
+					"(a) A component pouch or (b) an arcane focus.",
+					"A dagger.",
+					"(a) A dungeoneer's pack or (b) an scholar's pack"
+				]
+			},
+			"classFeatures":[
+				[
+					{
+						"name": "Brutal Fist",
+						"entries": [
+							"You have the knowledge to enhance your punches with arcane energy. At 1st level your unarmed strikes deal 1d4 damage. Your Archetype Feature at 15th level can alter the damage die.",
+							{
+								"type": "entries",
+								"name": "Brutal Fist Damage",
+								"entries": [
+									{
+										"type": "table",
+										"caption": "Brutal Fist Damage",
+										"colLabels": [
+											"Level",
+											"Damage"										
+										],
+										"colStyles": [
+											"col-xs-1 text-align-center",
+											"col-xs-2 text-align-center"
+										],
+										"rows": [
+											[
+												"1st",
+												"1d4"
+											],
+											[
+												"5th",
+												"1d6"
+											],
+											[
+												"11th",
+												"2d4"
+											],
+											[
+												"17th",
+												"2d6"
+											
+											],
+											[
+												"20th",
+												"2d8"
+											]
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Attack Rush",
+						"entries": [
+							"Starting at 1st level, you may make an unarmed strike as a bonus action."
+						]
+					}
+				],
+				[
+					{
+						"name": "Unarmored Defense",
+						"entries": [
+							"At 2nd level you have managed to combine your physical and mental strengths to protect you. Your unarmoured AC = 10 + Strength + Intelligence"
+						]
+					}
+				],
+				[
+					{
+						"name": "Archetype",
+						"entries": [
+							"At 3rd level you decide to begin specialising in one of the two important aspects of Muscle Wizardry. The raw, unbeatable strength that defines the physically most powerful. Or the refined, tactical intelligence that focuses more on the arcane aspect of this discipline."
+						],
+						"gainSubclassFeature": true
+					},
+					{
+						"name": "Spellcasting",
+						"entries": [
+							"The Muscle Wizards use their raw strength to produce magic as spells.",
+							{
+								"type": "entries",
+								"name": "Cantrips",
+								"entries": [
+									"At 3rd level, you know three Self or Touch Range cantrips of your choice from the Wizard spell list. You learn additional Muscle Wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Muscle Wizard table."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The Muscle Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell Burning Hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spells Known of 1st Level and Higher",
+								"entries": [
+									"You can know and prepare a number of spells equal to your Intelligence modifier + your Muscle Wizard level."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Intelligence is your spellcasting ability for your Muscle Wizard spells. The power of your spells comes from your study and memorization of the spells. You use your Intelligence whenever a Muscle Wizard spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a Muscle Wizard spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"int"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"int"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Focus",
+								"entries": [
+									"You can use an arcane focus as a spellcasting focus for your spells."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					},
+					{
+						"name": "Muscle Enhancement",
+						"entries": [
+							"At 4th level you gain an additional +1 to your Strength, which can exceed 20."
+						]
+					}
+				],
+				[
+					{
+						"name": "Brutal Fist(2)",
+						"entries": [
+							"At 5th level your unarmed damage increases to 1d6"
+						]
+					}
+				],
+				[
+					{
+						"name": "Extra Attack",
+						"entries": [
+							"Starting at 6th level you can attack with weapons or fists twice instead of once on an Attack action."
+						]
+					}
+				],
+				[
+					{
+						"name": "Archetype Feature",
+						"entries": [
+							"At 7th level, you gain another feature from your Archetype"
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					},
+					{
+						"name": "Mental Enhancement",
+						"entries": [
+							"At 8th level you gain an additional +1 to Intelligence, which can exceed 20."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Threatening Appearance",
+						"entries": [
+							"At 10th level your superhuman physicality causes the following effects:",
+							"Your height increases by 2d12 inches and your weight by x2d6 lbs.",
+							"Your imposing nature means that you gain disadvantage on all charisma checks other than Intimidation.",
+							"You gain disadvantage on Stealth (Dex) checks.",
+							"You count as one size larger for effects of pushing and being pushed"
+						]
+					}
+				],
+				[
+					{
+						"name": "Brutal Fist(3)",
+						"entries": [
+							"At 11th level your unarmed damage increases to 2d4"
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					},
+					{
+						"name": "Muscle Enhancement",
+						"entries": [
+							"At 12th level you gain an additional +1 to your Strength, which can exceed 20"
+						]
+					}
+				],
+				[
+					{
+						"name": "Archetype Feature",
+						"entries": [
+							"At 13th level, you gain another feature from your Archetype"
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[],
+				[
+					{
+						"name": "Archetype Feature",
+						"entries": [
+							"At 15th level, you gain another feature from your Archetype"
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					},
+					{
+						"name": "Mental Enhancement",
+						"entries": [
+							"At 16th level you gain an additional +1 to Intelligence, which can exceed 20"
+						]
+					}
+				],
+				[
+					{
+						"name": "Brutal Fist(4)",
+						"entries": [
+							"At 17th level your unarmed damage increases to 2d6"
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Brutal Fist(5)",
+						"entries": [
+							"At 20th level your unarmed damage increases to 2d8"
+						]
+					},
+					{
+						"name": "Serious Punch",
+						"entries": [
+							"At 20th level, you have mastered the arcane art of enhancing your unarmed melee attacks with magic. By exhausting yourself, you can bring ultimate destruction to your foes. You punch either an enemy, object or the ground dealing 10d4(per exhaustion level taken)+Strength+Intelligence bludgeoning damage. You choose how devastating your attack can be by selecting the amount of exhaustion levels you take after Serious Punch is finished. This causes the following effects to occur:",
+							"-A 50 ft conical blast wave emanates from the point of impact. All those inside must succeed on a Dex or Con save against your Spell DC or take 3d8 thunder damage, are pushed 15 ft away and knocked prone, and are deafened until the end of the target's next turn. On a success, the target takes half damage and isn't pushed or deafened.",
+							"-The shear force and speed of the impact causes an explosion in a 40 ft radius. All targets, including yourself, must succeed on a Con save against your DC or take 2d6 Fire and 2d10 Force damage, and be stunned. On a success, they don't take the force damage and aren't stunned.",
+							"-The ground cracks and debris is scattered around in a 25 ft radius from the shockwave. All targets in the area, aside from yourself, must make a Dex or Con save against your Spell DC or take 3d4 Piercing damage. On a success they take half as much.",
+							"You can only perform this attack if you have all of your spell slots and if you have no exhaustion levels. All damage is considered magical to overcome non-magical resistance and immunities, and ignores magical resistance as well as treats magical immunity as resistance. All resulting effects of the initial punch treat immunity to their respective damage as resistance due to the shear force and intensity of the attack."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Muscle Wizard Ways",
+			"subclasses": [
+				{
+					"name": "Way of the Closed Fist",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Way of the Closed Fist",
+								"entries": [
+									"These are Muscle Wizards who take the art of punching things to the extreme, they focus more on their physical strength rather than their spellcasting.",
+									{
+										"type": "entries",
+										"name": "Brutish Resolve",
+										"entries": [
+											"When you choose this archetype at 3rd level you gain advantage to Strength Saving throws."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Consecutive Punches",
+										"entries":[
+											"At 7th level you can expend a spell slot to perform an additional unarmed attack. Expending slots above level 1 grants an additional extra attack (e.g. +2 attacks Level 2; +3 attacks Level 3; etc.)"
+											]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Martial Prowess",
+										"entries":[
+											"At 13th level you have trained your body so hard that you gain one of the following effects of your choice:",
+											"1. You gain a +2 to either Dex or Con, or +1 to both.",
+											"2. You gain Proficiency in either Dex or Con Saving throws.",
+											"3.You gain Proficiency in Martial Melee weapons."
+											]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Barbaric Fist",
+										"entries": [
+											"At 15th level your Brutal Fist damage is the dice of the highest tier (2d8), and at 20th level the damage equals 1d20."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "Homebrew",
+					"shortName": "Way of the Closed Fist"
+				},
+				{
+					"name": "Way of the Open Mind",
+					"subclassFeatures": [
+						[
+							{	
+								"name": "Way of the Open Mind",
+								"entries" : [
+									"These Muscle Wizard are more magic based, using a wider range of spells and living up to their Muscle Wizard name.",
+									{
+										"name": "Intellectual Resolve",
+										"entries": [
+											"When you take this archetype at 3rd level you gain advantage to Intelligence Saving throws."
+										]
+									}
+									]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Improved Spellcasting",
+										"entries": [
+											"At 7th level you manage to expand your range of spells, you can now access all Evocation spells."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Tactical Prowess",
+										"entries": [
+											"At 13th level you have trained your mind so hard that you gain one of the following effects of your choice:",
+											"1.You gain a +2 to either Wis or Cha, or +1 to both.",
+											"2.You gain Proficiency in either Wis or Cha Saving throws.",
+											"3.You gain Proficiency in Two tools of your choice."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Psychic Fist",
+										"entries": [
+											"At 15th level your Brutal Fist damage is the dice of the tier two below (2d4), but your Brutal fist now can be cast at a range of 40 ft."
+										]
+									}
+								]
+							}
+						]				
+					],
+					"source": "Homebrew",
+					"shortName": "Way of the Open Mind"
+				}
+			]
+		}
+	]
+}
