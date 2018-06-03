@@ -1,13 +1,23 @@
 {
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tyeia",
+				"abbreviation": "Brew",
+				"full": "Tyeia's Homebrew(Muscle Wizards and Dragon Rider)",
+				"authors": [
+				"Tyeia"
+				],
+				"version": "0.0",
+				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
 	"class": [
 		{
-			"authors": [
-				"Doctor Necrotic"
-			],
-			"version": "1.0",
-			"url": "https://www.dandwiki.com/wiki/Dragon_Rider,_Variant_(5e_Class)",
 			"name": "Dragon Rider",
-			"source": "Homebrew",
+			"source": "Brew",
 			"hd": {
 				"number": 1,
 				"faces": 10

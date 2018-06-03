@@ -1,13 +1,23 @@
 {
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tyeia",
+				"abbreviation": "Brew",
+				"full": "Tyeia's Homebrew(Muscle Wizards and Dragon Rider)",
+				"authors": [
+				"Doctor Necrotic"
+				],
+				"version": "0.0",
+				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
 	"class": [
 		{
-			"authors": [
-				"Doctor Necrotic"
-			],
-			"version": "1.0",
-			"url": "https://www.dandwiki.com/wiki/Muscle_Wizard_(5e_Class)",
 			"name": "Muscle Wizard",
-			"source": "Homebrew",
+			"source": "Brew",
 			"hd": {
 				"number": 1,
 				"faces": 12
