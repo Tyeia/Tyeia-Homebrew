@@ -90,10 +90,10 @@
 					],
 					"rows": [
 						[
-							1
+							0
 						],
 						[
-							1
+							0
 						],
 						[
 							1
@@ -172,7 +172,7 @@
 					],
 					"rows": [
 						[
-							2,
+							0,
 							0,
 							0,
 							0,
@@ -183,7 +183,7 @@
 							0
 						],
 						[
-							3,
+							0,
 							0,
 							0,
 							0,
@@ -410,14 +410,14 @@
 					],
 					"rows": [
 						[
-							2,
+							0,
 							0,
 							0,
 							0,
 							0
 						],
 						[
-							3,
+							0,
 							0,
 							0,
 							0,
@@ -870,7 +870,7 @@
 							"-A 50 ft conical blast wave emanates from the point of impact. All those inside must succeed on a Dex or Con save against your Spell DC or take 3d8 thunder damage, are pushed 15 ft away and knocked prone, and are deafened until the end of the target's next turn. On a success, the target takes half damage and isn't pushed or deafened.",
 							"-The shear force and speed of the impact causes an explosion in a 40 ft radius. All targets, including yourself, must succeed on a Con save against your DC or take 2d6 Fire and 2d10 Force damage, and be stunned. On a success, they don't take the force damage and aren't stunned.",
 							"-The ground cracks and debris is scattered around in a 25 ft radius from the shockwave. All targets in the area, aside from yourself, must make a Dex or Con save against your Spell DC or take 3d4 Piercing damage. On a success they take half as much.",
-							"You can only perform this attack if you have all of your spell slots and if you have no exhaustion levels. All damage is considered magical to overcome non-magical resistance and immunities, and ignores magical resistance as well as treats magical immunity as resistance. All resulting effects of the initial punch treat immunity to their respective damage as resistance due to the shear force and intensity of the attack."
+							"You can only perform this attack if you have no exhaustion levels. All damage is considered magical to overcome non-magical resistance and immunities, and ignores magical resistance as well as treats magical immunity as resistance. All resulting effects of the initial punch treat immunity to their respective damage as resistance due to the shear force and intensity of the attack."
 						]
 					}
 				]
@@ -918,7 +918,7 @@
 											"At 13th level you have trained your body so hard that you gain one of the following effects of your choice:",
 											"1. You gain a +2 to either Dex or Con, or +1 to both.",
 											"2. You gain Proficiency in either Dex or Con Saving throws.",
-											"3.You gain Proficiency in Martial Melee weapons."
+											"3. You gain Proficiency in Martial Melee weapons."
 											]
 									}
 								]
@@ -965,7 +965,7 @@
 										"type": "entries",
 										"name": "Improved Spellcasting",
 										"entries": [
-											"At 7th level you manage to expand your range of spells, you can now access all Evocation spells."
+											"At 7th level you manage to expand your range of spells, you can now access all Wizard spells."
 										]
 									}
 								]
@@ -979,9 +979,9 @@
 										"name": "Tactical Prowess",
 										"entries": [
 											"At 13th level you have trained your mind so hard that you gain one of the following effects of your choice:",
-											"1.You gain a +2 to either Wis or Cha, or +1 to both.",
-											"2.You gain Proficiency in either Wis or Cha Saving throws.",
-											"3.You gain Proficiency in Two tools of your choice."
+											"1. You gain a +2 to either Wis or Cha, or +1 to both.",
+											"2. You gain Proficiency in either Wis or Cha Saving throws.",
+											"3. You gain Proficiency in Two tools of your choice."
 										]
 									}
 								]
