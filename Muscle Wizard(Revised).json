@@ -1,11 +1,21 @@
-{
+{	
+	"_meta": {
+		"sources": [
+			{
+				"json": "MuscleWizard",
+				"abbreviation": "Brew",
+				"full": "Muscle Wizard(Revised)",
+				"authors": [
+				"Tyeia"
+				],
+				"version": "1.0",
+				"url": "https://www.dandwiki.com/wiki/Muscle_Wizard_(5e_Class)",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
 	"class": [
 		{
-			"authors": [
-				"Tyeia"
-			],
-			"version": "1.0",
-			"url": "https://www.dandwiki.com/wiki/Muscle_Wizard_(5e_Class)",
 			"name": "Muscle Wizard(Revised)",
 			"source": "Homebrew",
 			"hd": {
