@@ -3,12 +3,12 @@
 		"sources": [
 			{
 				"json": "Tyeia",
-				"abbreviation": "Brew",
+				"abbreviation": "TMW",
 				"full": "Tyeia's Homebrew(Muscle Wizards and Dragon Rider)",
 				"authors": [
-				"Tyeia"
+					"Tyeia"
 				],
-				"version": "0.0",
+				"version": "1.0",
 				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
 				"targetSchema": "1.0.0"
 			}
@@ -17,7 +17,7 @@
 	"class": [
 		{
 			"name": "Dragon Rider",
-			"source": "Brew",
+			"source": "Tyeia",
 			"hd": {
 				"number": 1,
 				"faces": 10

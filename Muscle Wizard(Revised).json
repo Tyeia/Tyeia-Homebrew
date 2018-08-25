@@ -3,12 +3,12 @@
 		"sources": [
 			{
 				"json": "Tyeia",
-				"abbreviation": "Brew",
+				"abbreviation": "TMW",
 				"full": "Tyeia's Homebrew(Muscle Wizards and Dragon Rider)",
 				"authors": [
-				"Tyeia"
+					"Tyeia"
 				],
-				"version": "0.0",
+				"version": "2.0",
 				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
 				"targetSchema": "1.0.0"
 			}
@@ -17,7 +17,7 @@
 	"class": [
 		{
 			"name": "Muscle Wizard(Revised)",
-			"source": "Brew",
+			"source": "Tyeia",
 			"hd": {
 				"number": 1,
 				"faces": 12
@@ -785,7 +785,7 @@
 						"entries": [
 							"At 10th level your superhuman physicality causes the following effects:",
 							"Your height increases by 2d12 inches and your weight by x2d6 lbs.",
-							"Your imposing nature means that you gain disadvantage on all charisma checks other than Intimidation.",
+							"Your imposing nature means that you gain advantage on Intimidation checks.",
 							"You gain disadvantage on Stealth (Dex) checks.",
 							"You count as one size larger for effects of pushing and being pushed"
 						]
