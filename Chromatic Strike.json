@@ -10,9 +10,15 @@
 				],
 				"version": "1.0.0",
 				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
-				"targetSchema": "1.0.0"
+				"targetSchema": "1.2.3"
 			}
 		],
+		"spellDistanceUnits":{
+			"squares": {
+				"singular": "square",
+				"feetPerUnit": 5
+			}
+		},
 	"spell": [
 		{
 			"name": "Chromatic Strike",
@@ -25,10 +31,9 @@
 				}
 			],
 			"range": {
-				"type": "touch",
+				"type": "point",
 				"distance": {
-					"type": "squares",
-					"amount": 5
+					"type": "touch"
 				}
 			},
 			"components": {
@@ -50,14 +55,14 @@
 			},
 			"source": "Tyeia",
 			"entries": [
-				"You channel the elements to cover your weapon to smite an enemy.  Roll 1d8: that effect takes place.",
-				"1-Red. The target takes an additional 2d6 fire damage.",
-				"2-Orange. The target takes an additional 2d6 acid damage.",
-				"3-Yellow. The target takes an additional 2d6 lightning damage.",
-				"4-Green. The target takes an additional 2d6 poison damage.",
-				"5-Blue. The target takes an additional 2d6 cold damage.",
-				"6-Indigo. The target takes an additional 1d6 thunder damage, and is knocked back 10 ft.",
-				"7-Violet. The target takes an additional 1d6 radiant damage, and makes a CON save.  On a failed save, the target is blinded until they succeed the save at the end of their turn",
+				"You channel the elements to cover your weapon to smite an enemy.  Roll {@dice 1d8}: that effect takes place.",
+				"1-Red. The target takes an additional {@dice 2d6} fire damage.",
+				"2-Orange. The target takes an additional {@dice 2d6} acid damage.",
+				"3-Yellow. The target takes an additional {@dice 2d6} lightning damage.",
+				"4-Green. The target takes an additional {@dice 2d6} poison damage.",
+				"5-Blue. The target takes an additional {@dice 2d6} cold damage.",
+				"6-Indigo. The target takes an additional {@dice 1d6} thunder damage, and is knocked back 10 ft.",
+				"7-Violet. The target takes an additional {@dice 1d6} radiant damage, and makes a CON save.  On a failed save, the target is blinded until they succeed the save at the end of their turn",
 				"8-Special. The blade has two elements. Roll twice more, rerolling any 8."
 				]
 			}
