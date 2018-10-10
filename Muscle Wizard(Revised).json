@@ -689,7 +689,7 @@
 								"type": "entries",
 								"name": "Spells Known of 1st Level and Higher",
 								"entries": [
-									"You can know and prepare a number of spells equal to your Intelligence modifier + your Muscle Wizard level."
+									"You can know and prepare a number of spells of Self or Touch range equal to your Intelligence modifier + your Muscle Wizard level."
 								]
 							},
 							{
