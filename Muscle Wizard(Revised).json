@@ -28,6 +28,12 @@
 			],
 			"classTableGroups": [
 					{
+						"subclasses":[
+							{
+								"name": "Way of the Closed Fist",
+								"source": "Homebrew"
+							}
+						],
 						"colLabels": [
 							"Brutal Fist"
 						],
@@ -50,51 +56,132 @@
 							[
 								"1d6"
 							],
-						[
-							"1d6"
-						],
-						[
-							"1d6"
-						],
-						[
-							"1d6"
-						],
-						[
-							"1d6"
-						],
-						[
-							"2d4"
-						],
-						[
-							"2d4"
-						],
-						[
-							"2d4"
-						],
-						[
-							"2d4"
-						],
-						[
-							"2d4"
-						],
-						[
-							"2d4"
-						],
-						[
-							"2d6"
-						],
-						[
-							"2d6"
-						],
-						[
-							"2d6"
-						],
-						[
-							"2d8"
-						]
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+							[
+								"2d4"
+							],
+							[
+								"2d4"
+							],
+							[
+								"2d4"
+							],
+							[
+								"2d4"
+							],	
+							[	
+								"2d8"
+							],
+							[
+								"2d8"
+							],
+							[
+								"2d8"
+							],
+							[
+								"2d8"
+							],
+							[
+								"2d8"
+							],
+							[
+								"2d10"
+							]
 					]
 				},
-				{	
+				{
+					"subclasses":[
+						{
+							"name": "Way of the Open Mind",
+							"source": "Homebrew"
+						}
+					],
+			
+						"colLabels": [
+							"Brutal Fist"
+						],
+						"rows":[
+							[
+								"1d4"
+							],
+							[
+								"1d4"
+							],
+							[
+								"1d4"
+							],
+							[
+								"1d4"
+							],
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+							[
+								"1d6"
+							],
+							[
+								"2d4"
+							],
+							[
+								"2d4"
+							],
+							[
+								"2d4"
+							],
+							[
+								"2d4"
+							],	
+							[	
+								"2d4"
+							],
+							[
+								"2d4"
+							],
+							[
+								"2d6"
+							],
+							[
+								"2d6"
+							],
+							[
+								"2d6"
+							],
+							[
+								"2d8"
+							]
+					]
+				},
+				
+				{
+					"subclasses":[
+						{
+							"name":"Way of the Closed Fist",
+							"source":"Homebrew"
+						}
+					],	
 					"colLabels": [
 						"Cantrips Known"
 					],
@@ -109,7 +196,16 @@
 							1
 						],
 						[
-							3
+							1
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
 						],
 						[
 							3
@@ -121,10 +217,13 @@
 							3
 						],
 						[
-							3
+							4
 						],
 						[
-							3
+							4
+						],
+						[
+							4
 						],
 						[
 							5
@@ -134,6 +233,67 @@
 						],
 						[
 							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"subclasses":[
+						{
+							"name":"Way of the Open Mind",
+							"source":"Homebrew"
+						}
+					],	
+					"colLabels": [
+						"Cantrips Known"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
 						],
 						[
 							5
@@ -193,7 +353,7 @@
 							0
 						],
 						[
-							0,
+							4,
 							0,
 							0,
 							0,
@@ -427,7 +587,7 @@
 						0
 					],
 					[
-						0,
+						3,
 						0,
 						0,
 						0,
@@ -657,15 +817,6 @@
 						"entries": [
 							"At 2nd level you have managed to combine your physical and mental strengths to protect you. Your unarmoured AC = 10 + Strength + Intelligence"
 						]
-					}
-				],
-				[
-					{
-						"name": "Archetype",
-						"entries": [
-							"At 3rd level you decide to begin specialising in one of the two important aspects of Muscle Wizardry. The raw, unbeatable strength that defines the physically most powerful. Or the refined, tactical intelligence that focuses more on the arcane aspect of this discipline."
-						],
-						"gainSubclassFeature": true
 					},
 					{
 						"name": "Spellcasting",
@@ -675,7 +826,7 @@
 								"type": "entries",
 								"name": "Cantrips",
 								"entries": [
-									"At 3rd level, you know three Self or Touch Range cantrips of your choice from the Wizard spell list. You learn additional Muscle Wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Muscle Wizard table."
+									"At 2nd level, you know three Self or Touch Range cantrips of your choice from the Wizard spell list. You learn additional Muscle Wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Muscle Wizard table."
 								]
 							},
 							{
@@ -721,6 +872,15 @@
 								]
 							}
 						]
+					}
+				],
+				[
+					{
+						"name": "Archetype",
+						"entries": [
+							"At 3rd level you decide to begin specialising in one of the two important aspects of Muscle Wizardry. The raw, unbeatable strength that defines the physically most powerful. Or the refined, tactical intelligence that focuses more on the arcane aspect of this discipline."
+						],
+						"gainSubclassFeature": true
 					}
 				],
 				[
@@ -926,9 +1086,10 @@
 										"name": "Martial Prowess",
 										"entries":[
 											"At 13th level you have trained your body so hard that you gain one of the following effects of your choice:",
-											"1. You gain a +2 to either Dex or Con, or +1 to both.",
-											"2. You gain Proficiency in either Dex or Con Saving throws.",
-											"3. You gain Proficiency in Martial Melee weapons."
+											"1. You gain a Poison resist and advantage on Con saves against poison.",
+											"2. You gain Uncanny Dodge.",
+											"3. You gain Proficiency in either Dex or Con Saving throws.",
+											"4. You gain Proficiency in Martial Melee weapons."
 											]
 									}
 								]
@@ -941,7 +1102,7 @@
 										"type": "entries",
 										"name": "Barbaric Fist",
 										"entries": [
-											"At 15th level your Brutal Fist damage is the dice of the highest tier (2d8), and at 20th level the damage equals 1d20."
+											"At 15th level your Brutal Fist damage is the dice of the highest tier (2d8), and at 20th level the damage equals 2d10."
 										]
 									}
 								]
@@ -975,7 +1136,7 @@
 										"type": "entries",
 										"name": "Improved Spellcasting",
 										"entries": [
-											"At 7th level you manage to expand your range of spells, you can now access all Wizard spells."
+											"At 7th level you manage to expand your range of spells, you can now access all Wizard spells. You also gain another cantrip"
 										]
 									}
 								]
@@ -989,9 +1150,10 @@
 										"name": "Tactical Prowess",
 										"entries": [
 											"At 13th level you have trained your mind so hard that you gain one of the following effects of your choice:",
-											"1. You gain a +2 to either Wis or Cha, or +1 to both.",
-											"2. You gain Proficiency in either Wis or Cha Saving throws.",
-											"3. You gain Proficiency in Two tools of your choice."
+											"1. You gain resistance to psychic damage.",
+											"2. You gain resistance to being charmed.",
+											"3. You gain Proficiency in either Wis or Cha Saving throws.",
+											"4. You gain Proficiency in Two tools of your choice."
 										]
 									}
 								]
@@ -1004,7 +1166,41 @@
 										"type": "entries",
 										"name": "Psychic Fist",
 										"entries": [
-											"At 15th level your Brutal Fist damage is the dice of the tier two below (2d4), but your Brutal fist now can be cast at a range of 40 ft."
+											"At 15th level you gain the option to project your punches a distance at the cost of damage.",
+											"When you attack using Psychic Fist, your Brutal Fist damage is the dice of the tier two below (1d4),", 
+											"but your Brutal fist now can be cast at a range of 40 ft.",
+											{
+												"type": "entries",
+												"name": "Psychic Fist Damage",
+												"entries": [
+													{
+														"type": "table",
+														"caption": "Psychic Fist Damage",
+														"colLabels": [
+															"Level",
+															"Damage"										
+														],
+														"colStyles": [
+															"col-xs-1 text-align-center",
+															"col-xs-2 text-align-center"
+														],
+														"rows": [
+															[
+																"15th",
+																"1d4"
+															],
+															[
+																"17th",
+																"1d6"
+															],
+															[
+																"20th",
+																"2d4"
+															]
+														]
+													}
+												]
+											}
 										]
 									}
 								]

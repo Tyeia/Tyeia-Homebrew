@@ -75,7 +75,7 @@
 							}
 						},
 						"Red",
-						"The target takes an additional {@dice 2d6} fire damage."
+						"The target takes an additional {@dice 2d8} fire damage."
 					],
 					[
 						{
@@ -85,7 +85,7 @@
 							}
 						},
 						"Orange",
-						"The target takes an additional {@dice 2d6} acid damage."
+						"The target takes an additional {@dice 2d8} acid damage."
 					],
 					[
 						{
@@ -95,7 +95,7 @@
 							}
 						},
 						"Yellow",
-						"The target takes an additional {@dice 2d6} lightning damage."
+						"The target takes an additional {@dice 2d8} lightning damage."
 					],
 					[
 						{
@@ -105,7 +105,7 @@
 							}
 						},
 						"Green",
-						"The target takes an additional {@dice 2d6} poison damage."
+						"The target takes an additional {@dice 2d8} poison damage."
 					],
 					[
 						{
@@ -115,7 +115,7 @@
 							}
 						},
 						"Blue",
-						"The target takes an additional {@dice 2d6} cold damage."
+						"The target takes an additional {@dice 2d8} cold damage."
 					],
 					[
 						{
@@ -125,7 +125,7 @@
 							}
 						},
 						"Indigo",
-						"The target takes an additional {@dice 1d6} thunder damage, and is knocked back 10 ft."
+						"The target takes an additional {@dice 1d8} thunder damage, and is knocked back 10 ft."
 					],
 					[
 						{
@@ -135,7 +135,7 @@
 							}
 						},
 						"Violet",
-						"The target takes an additional {@dice 1d6} radiant damage, and makes a CON save.  On a failed save, the target is blinded until they succeed the save at the end of their turn."
+						"The target takes an additional {@dice 1d8} radiant damage, and makes a CON save.  On a failed save, the target is blinded until they succeed the save at the end of their turn."
 					],
 					[
 						{
