@@ -191,7 +191,7 @@
 							0
 						],
 						[
-							0
+							1
 						],
 						[
 							1
@@ -264,7 +264,7 @@
 							0
 						],
 						[
-							0
+							1
 						],
 						[
 							1
@@ -354,7 +354,7 @@
 							0
 						],
 						[
-							4,
+							3,
 							0,
 							0,
 							0,
@@ -1168,8 +1168,7 @@
 										"name": "Psychic Fist",
 										"entries": [
 											"At 15th level you gain the option to project your punches a distance at the cost of damage.",
-											"When you attack using Psychic Fist, your Brutal Fist damage is the dice of the tier two below (1d4),", 
-											"but your Brutal fist now can be cast at a range of 40 ft.",
+											"When you attack using Psychic Fist, your Brutal Fist damage is the dice of the tier two below (1d4), but your Brutal fist now can be cast at a range of 40 ft.",
 											{
 												"type": "entries",
 												"name": "Psychic Fist Damage",
