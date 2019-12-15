@@ -1077,7 +1077,7 @@
 										"type": "entries",
 										"name": "Consecutive Punches",
 										"entries":[
-											"At 7th level you can expend a spell slot to perform an additional unarmed attack. Expending slots above level 1 grants an additional extra attack (e.g. +2 attacks Level 2; +3 attacks Level 3; etc.)"
+											"At 7th level you can use an action to expend a spell slot to perform unarmed attacks equal to the spell level spent. Expending slots above level 1 grants an additional extra attack (e.g. +2 attacks Level 2; +3 attacks Level 3; etc.)"
 											]
 									}
 								]
@@ -1092,7 +1092,7 @@
 										"entries":[
 											"At 13th level you have trained your body so hard that you gain one of the following effects of your choice:",
 											"1. You gain a Poison resist and advantage on Con saves against poison.",
-											"2. You gain Uncanny Dodge.",
+											"2. You gain Proficiency in two Dexterity skills of your choice.",
 											"3. You gain Proficiency in either Dex or Con Saving throws.",
 											"4. You gain Proficiency in Martial Melee weapons."
 											]
