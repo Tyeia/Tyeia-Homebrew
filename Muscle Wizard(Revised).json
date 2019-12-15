@@ -12,9 +12,9 @@
 				"version": "2.0",
 				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
 				"targetSchema": "1.0.0"
-			}
-		]
-	},
+				}
+			]
+		},
 	"class": [
 		{
 			"name": "Muscle Wizard(Revised)",
@@ -735,17 +735,21 @@
 				"tools": [
 					"None"
 				],
-				"skills": {
-					"choose": 2,
-					"from": [
-						"Athletics",
-						"Arcana",
-						"Insight",
-						"Intimidation",
-						"Medicine",
-						"Religion"
-					]
-				}
+				"skills": [
+					{
+					"choose": {
+						"from": [
+								"Athletics",
+								"Arcana",
+								"Insight",
+								"Intimidation",
+								"Medicine",
+								"Religion"
+							],
+							"count":2
+						}
+					}
+				]
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
