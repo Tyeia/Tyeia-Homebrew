@@ -10,7 +10,7 @@
 					"Toastghost"
 				],
 				"version": "2.0",
-				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"url": "https://github.com/Tyeia/Tyeia-Tyeia",
 				"targetSchema": "1.0.0"
 				}
 			]
@@ -59,9 +59,9 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) A brass knuckle or (b) Two steel gauntlets.",
-					"(a) A component pouch or (b) an arcane focus.",
-					"A dagger.",
-					"(a) A dungeoneer's pack or (b) an scholar's pack"
+					"(a) A {@item component pouch|phb} or (b) an {@item arcane focus|phb}.",
+					"A {@item dagger|phb}.",
+					"(a) A {@item dungeoneer's pack|phb} or (b) an {@item scholar's pack|phb}"
 				]
 			},
 			"classFeatures":[
@@ -436,7 +436,7 @@
 							"subclasses":[
 								{
 									"name":"Way of the Closed Fist",
-									"source":"Homebrew"
+									"source":"Tyeia"
 								}
 							],	
 							"colLabels": [
@@ -510,7 +510,7 @@
 							"subclasses":[
 								{
 									"name": "Way of the Closed Fist",
-									"source": "Homebrew"
+									"source": "Tyeia"
 								}
 							],
 							"colLabels": [
@@ -724,7 +724,7 @@
 							}
 						]
 					],
-					"source": "Homebrew",
+					"source": "Tyeia",
 					"shortName": "Way of the Closed Fist"
 				},
 				{
@@ -734,7 +734,7 @@
 								"subclasses":[
 									{
 										"name": "Way of the Open Mind",
-										"source": "Homebrew"
+										"source": "Tyeia"
 									}
 								],
 						
@@ -808,7 +808,7 @@
 								"subclasses":[
 									{
 										"name":"Way of the Open Mind",
-										"source":"Homebrew"
+										"source":"Tyeia"
 									}
 								],	
 								"colLabels": [
@@ -882,7 +882,7 @@
 								"subclasses":[
 									{
 										"name": "Way of the Open Mind",
-										"source": "Homebrew"
+										"source": "Tyeia"
 									}
 								],
 								"colLabels": [
@@ -1127,6 +1127,7 @@
 								"entries" : [
 									"These Muscle Wizard are more magic based, using a wider range of spells and living up to their Muscle Wizard name.",
 									{
+										"type": "entries",
 										"name": "Intellectual Resolve",
 										"entries": [
 											"When you take this archetype at 3rd level you gain advantage to Intelligence Saving throws."
@@ -1212,7 +1213,7 @@
 							}
 						]				
 					],
-					"source": "Homebrew",
+					"source": "Tyeia",
 					"shortName": "Way of the Open Mind"
 				}
 			]

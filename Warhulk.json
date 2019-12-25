@@ -1,0 +1,537 @@
+{	
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tyeia",
+				"abbreviation": "TMW",
+				"full": "Tyeia's Homebrew",
+				"authors": [
+					"Tyeia",
+					"Toastghost"
+				],
+				"version": "1.0",
+				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"targetSchema": "1.0.0"
+				}
+			]
+		},
+	"class": [
+		{
+			"name": "Warhulk",
+			"source": "Tyeia",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": [
+                    "light",
+                    "medium",
+                    "heavy",
+                    "shields"
+				],
+				"weapons": [
+					"martial",
+					"simple"
+				],
+				"tools": [
+					"None"
+				],
+				"skills": [
+					{
+					"choose": {
+						"from": [
+								"Athletics",
+								"Intimidation",
+								"Perception",
+								"Survival"
+							],
+							"count":2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item greatclub|phb} or (b) {@item spear|phb} and {@item shield|phb} or (c) {@item club|phb} and {@item shield|phb}.",
+					"(a) {@item leather armor|phb} or (b) {@item hide armor|phb}.",
+					"(a) A {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack}."
+				]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "or": [
+                        {
+                            "str": 13
+                        }
+                    ]
+                }
+            },
+			"classFeatures":[
+				[
+					{
+						"name": "Big and Tough",
+						"entries": [
+							"Starting at 1st level, your hit points maximum increases by 1 hit points and continues to increase by 1 additional hit points per level of war hulk. If you are small size or smaller, your size becomes Medium as well."
+						]
+					}
+				],
+				[
+					{
+						"name": "Brute Force",
+						"entries": [
+							"Starting at 2nd level, you’re able to strike with your attacks with brutal force. Whenever you hit with a weapon or unarmed strike that you’re proficient with and deal damage, the damage increases by 1d4 damage. This additional damage increases to 1d8 at 10th level, 1d10 at 14th level, and 1d12 at 18th level. (Brute Force Damage also applies to the damage on the Grappler Subclass)"
+						]
+					}
+				],
+				[
+					{
+						"name": "Hulking Path",
+						"entries": [
+							"At third level, you may pick between 4 subclasses: Grappler, Pugilist, Thrower, or Thunderer, detailed at the end of the class description."
+						],
+						"gainSubclassFeature": true
+                    },
+                    {
+                        "name": "Dynamic Durability",
+                        "entries": [
+                            "At third level, You are durable and you have gained massive resistance to certain types of damage. Choose one between the damage types and you now resist that type"
+                        ]
+                    }
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Great Swing",
+						"entries": [
+							"Starting at 5th level, you are able to make a great, sweeping swing whenever you make a melee attack during an attack action. You can choose two enemies adjacent to one another (you must be within melee range of both of them). Your attack applies to both creatures. Make one attack roll and apply that roll as an attack against each defender. You may take Great Swing or you can take the optional route in taking a secondary subclass (you only get one stack of thick skin)"
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 6th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Huge Size",
+						"entries": [
+							"When you reach 7th level, your size category changes to Large, if you aren't Large or larger already."
+						]
+                    },
+                    {
+                        "name": "Large Weapons",
+                        "entries": [
+                            "Your size allows you to wield Large weapons with which you are proficient. Large weapons deal double the weapon's damage dice on a hit. Example: A large club does 2d4 damage on a hit, and a Large greatsword does 4d6 damage on a hit."
+                        ]
+                    }
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+                    {
+                        "name": "Hulking Path Feature",
+                        "entries":[
+                            "At 9th level you gain a feature from your Hulking path"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 10th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Second Wind",
+						"entries": [
+							"Starting at 11th level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d12 + your war hulk level. You can use this feature twice, you must finish a short or long rest before you can use it again."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Hulking Path Feature",
+						"entries": [
+							"At 13th level, you gain another feature from your Hulking Path"
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 14th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+                    }
+                ],
+				[
+					{
+						"name": "Hulking Intimidation",
+						"entries": [
+							"Starting at 15th level, you gain proficiency in Intimidation or double the proficiency bonus if you are already proficient in intimidation. In addition, you can use your Strength modifier instead of Charisma modifier on all intimidation checks."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Hulking Path Feature",
+						"entries": [
+							"At 17th level you gain another feature from your Hulking Path"
+						]
+					}
+				],
+				[
+                    {
+                        "name": "Unstoppable Toughness",
+                        "entries": [
+                            "Once you reach 18th level, your sheer toughness becomes the stuff of legend. You regain 5 hit points at the start of each of your turns, provided you have at least 1 hit point."
+                        ]
+                    }
+                ],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a feat."
+						]
+					}
+				],
+				[
+					{
+						"name": "Might of the Hulk",
+						"entries": [
+							"At 20th level, you realize your full potential. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Hulking Paths",
+			"subclasses": [
+				{
+					"name": "Grappler",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Grappler",
+								"entries": [
+									"Rather than use a weapon, you prefer to Grapple your opponents and toss your opponents around.",
+									{
+										"type": "entries",
+										"name": "Grappler",
+										"entries": [
+											"Beginning when you choose this subclass at 3rd level, you have an advantage on attack rolls against a creature that is grappled by you. Additionally, your speed is not reduced if you are carrying or dragging a grappled creature with you."
+										]
+                                    },
+                                    {
+                                        "type": "entries",
+                                        "name": "Toss",
+                                        "entries":[
+                                            "Starting at 3rd level, using at least one free hand, on a successful grapple check, instead of grappling a creature you may choose to toss it 10 feet away from you in any direction, including up. A tossed creature takes 1d8 + your Strength modifier bludgeoning damage, and must succeed on a Dexterity saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. The damage of this feature increases to 2d8, and the distance you may throw a creature increases to 20 feet if you are a Large creature. You may also use the Attack action to toss a creature that is grappled by you at the start of your turn. If you toss a creature into a space occupied by another creature, that creature must succeed on a Dexterity saving throw (DC 8 + your proficiency bonus + your Strength modifier) or take the same damage and be knocked prone."
+                                        ]
+                                    }
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Hand Catch",
+										"entries":[
+											"Starting at 9th level, you can use your open hand to harmlessly absorb blows, opening your unfortunate attacker to a quick snatch and grab. When you are hit by a melee weapon attack that you are aware of, you may use your reaction to reduce the damage of the attack by 1d10 + your Strength modifier + your war hulk level. If you reduce the damage to 0, you may immediately make a grapple check against the creature that made the attack."
+											]
+                                    },
+                                    {
+                                        "type": "entries",
+                                        "name": "Lifting Strength",
+                                        "entries": [
+                                            "Once you reach 9th level, your carrying capacity, along with the amount you can push, lift, or drag, doubles."
+                                        ]
+                                    }
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Thickened Skin",
+										"entries":[
+											"Starting at 13th level, you gain a +1 bonus to your Armor Class. This bonus increases to +2 at 17th level."
+											]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Massive Bear Hug",
+										"entries": [
+											"Beginning at 17th level, a creature that is grappled by you is restrained, in addition to being grappled."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "Tyeia",
+					"shortName": "Grappler"
+				},
+				{
+					"name": "Pugilist",
+					"subclassFeatures": [
+						[
+							{	
+								"name": "Pugilist",
+								"entries" : [
+									"Rather than use a weapon, you prefer to pummel your opponents with your fists.",
+									{
+                                        "type": "entries",
+										"name": "Unarmed Strike",
+										"entries": [
+											"Starting at 3rd level, you can roll 1d6 in place of the damage of your unarmed strikes, or 2d6 if you are Large. Additionally, when you use the Attack action on your turn, you can make one unarmed strike as a bonus action."
+										]
+									}
+									]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Overpowering Strike",
+										"entries": [
+											"Starting at 9th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+										]
+                                    },
+                                    {
+                                        "type": "entries",
+                                        "name": "Whallop",
+                                        "entries": [
+                                            "Once you reach 9th level, you can swing your meaty fists so hard that your opponents see stars. Once on your turn when you hit a creature with an unarmed strike, you can attempt to stun the creature. When you do so, the creature must make a Constitution saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or be stunned until the end of your next turn."
+                                        ]
+                                    }
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Thickened Skin",
+										"entries": [
+											"Starting at 13th level, you gain a +1 bonus to your Armor Class. This bonus increases to +2 at 17th level."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Furying Blows",
+										"entries": [
+											"Beginning at 17th level, you can attack Mutiple times, instead of once, whenever you make an unarmed strike using the Attack action on your turn. Roll 4 Attacks and each attack you hit with deals 3d6 instead of normal damage"
+										]
+									}
+								]
+							}
+						]				
+					],
+					"source": "Tyeia",
+					"shortName": "Pugilist"
+                },
+                {
+                    "name": "Thrower",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Thrower",
+                                "entries": [
+                                    "War Hulk throwers like to hurl mighty boulders at the enemies to crush them beneath a pile of rocks.",
+                                    {
+                                        "type": "entries",
+                                        "name": "Mighty Rock Throwing",
+                                        "entries": [
+                                            "At 3rd level, you gain a powerful rock throwing ability. Provided you have at least one free hand, you can use the Attack action to pick up and throw a boulder as a ranged weapon attack that uses Strength. You are proficient with thrown rocks, which have the thrown (range 20/60) property and deal 1d10 bludgeoning damage on a hit. Starting at 7th level, you can throw Large rocks, which deal 2d10 bludgeoning damage."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                               "entries": [
+                                   {
+                                        "type": "entries",
+                                        "name": "Sweeping Boulder",
+                                        "entries": [
+                                            "Starting at 9th level, you are able to throw your rocks with such force that they affect two enemies in the same path as an Attack action. Make one attack roll and apply the result to each target. You still have disadvantage on the attack roll when attacking creatures beyond the normal range."
+                                        ]
+                                   }
+                               ]
+                            }
+                        ],
+                        [
+                            {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Increased Range",
+                                        "entries": [
+                                            "Starting at 13th level, you are able to throw weapons further. The range of weapons you throw are doubled."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "All in the Path",
+                                        "entries": [
+                                            "Starting at 17th level, your Sweeping Boulder Attack action can target 2 additional creatures in the path of the attack, making up to 4 total."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "Tyeia",
+                    "shortName": "Thrower"
+                },
+                {
+                    "name": "Thunderer",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Thunderer",
+                                "entries": [
+                                    "As a thunderer, you hone your speed and agility, combining brute force with surprising swiftness to deadly effect.",
+                                    {
+                                        "type": "entries",
+                                        "name": "Fast Movement",
+                                        "entries": [
+                                            "At 3rd level, your speed increases by 10 feet. Your speed increases by another 10 feet at 9th level (20 feet), and 17th level (30 feet)."
+                                        ]
+                                    },
+                                    {
+                                        "type": "entries",
+                                        "name": "Trample",
+                                        "entries": [
+                                            "Starting at 3rd level, you can move through the spaces of hostile creatures which are no larger than Medium size, and you do not treat creatures as difficult terrain. If you move through a hostile creature's space, that creature must make a Strength saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or take 2d6 + your Strength modifier bludgeoning damage. A creature can only make this saving throw once per round."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Crushing Charge",
+                                        "entries": [
+                                            "At 9th level, you gain the ability to use your velocity to cause the most damage, plowing headlong into your enemies for devastating effect. When you take the Dash action on your turn, you can use your bonus action to take the Attack action (one attack only, although you can still use your Great Swing feature) at the end of your movement. If you move at least 20 feet straight towards the target of your attack, and you hit, the target takes 10 additional damage, and if the target is a creature, it must make a Strength saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or be pushed 20 feet and knocked prone."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "Adroitness",
+                                        "entries": [
+                                            "Once you reach 13th level, you gain proficiency in Dexterity saving throws."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "entries": [
+                                    {
+                                        "type": "entries",
+                                        "name": "War Wind",
+                                        "entries": [
+                                            "At 17th level, your Great Swing feature drastically improves. When you use the Attack action on your turn to make a melee attack, you may apply the result of your attack roll to all creatures you choose within your reach, rather than just two adjacent creatures."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "Tyeia",
+                    "shortName": "Thunderer"
+                }
+			]
+		}
+	]
+}
