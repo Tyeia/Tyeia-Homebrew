@@ -9,7 +9,7 @@
 					"Tyeia",
 					"Toastghost"
 				],
-				"version": "1.0",
+				"version": "2.1",
 				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
 				"targetSchema": "1.0.0"
 				}
@@ -60,7 +60,7 @@
 				"default": [
 					"(a) {@item greatclub|phb} or (b) {@item spear|phb} and {@item shield|phb} or (c) {@item club|phb} and {@item shield|phb}.",
 					"(a) {@item leather armor|phb} or (b) {@item hide armor|phb}.",
-					"(a) A {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack}."
+					"(a) A {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}."
 				]
             },
             "multiclassing": {
