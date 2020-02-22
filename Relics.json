@@ -42,7 +42,7 @@
                 "Abilities:",
                 "- 3 charges: Adaptive Form - Ascalon Transforms into a greatsword for 5 minutes, giving it the two-handed property and increasing its damage to 2d6",
                 "- 5 charges: Full Counter - Using a reaction when you take an instance of damage, you deal the damage that you take back to the source of the damage. You must take the damage to use this ability.",
-                "- 15 charges: Righteous Slash - You gather power in Ascalon and strike the ground with righteous might, dealing ((4*Magic Bonus)d8(minimum 1) damage to any creature in a (15 + 15*Magic Bonus)ft cone"
+                "- 15 charges: Righteous Slash - You gather power in Ascalon and strike the ground with righteous might. Every creature in a (15 + 15*Magic Bonus)ft cone must make a Dexterity save, the DC for this save is (8 + Proficiency + Charisma + Magic Bonus). On a failed save, the creature takes (1+(4*Magic Bonus)d8 radiant damage. On a successful save, the creature takes half damage instead."
             ]
         },
         {
@@ -158,7 +158,7 @@
             "entries": [
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
                 "{@bold Magic Resistance} - While wielding Logia, you have advantage on saving throws against spells, and spells have disadvantage on attacks against you.",
-                "{@bold Anti-Magic} - Logia innately bypasses the effects of Shield and Mage Armor. If its user develops spell slots, Logia will consume all of them and not allow them to restore. Additionally, Logia has 15 charges, which fully restore at dawn. You may cast the following spells using these charges:",
+                "{@bold Anti-Magic} - Logia innately bypasses the effects of {@spell Shield} and {@spell Mage Armor}. If its user develops spell slots, Logia will consume all of them and not allow them to restore. Additionally, Logia has 15 charges, which fully restore at dawn. You may cast the following spells using these charges:",
                 "- 3 charges: {@spell Counterspell}",
                 "- 3 charges: {@spell Dispel Magic}",
                 "- 10 charges: {@spell Antimagic Field}"
@@ -174,7 +174,106 @@
             "entries": [
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down. This magic bonus is added to your AC",
                 "{@bold Trace} - You may improve the quality of a weapon you are holding as an action, giving it a +1 magic bonus for 1 minute. You can only do this a number of times equal to your proficiency bonus per long rest.",
-                "{@bold Unlimited Bladeworks} - As an action, you may create a single copy of every weapon or relic you can see. Your copies are lesser than the originals. If the original has any magic bonus, it is reduced by half for the copy. If the original has charges, the copy has half of the maximum amount. After one use, be it an attack or feature the copy will break. All copies are considered attuned to you, ignoring attunement slots or restrictions, and you have proficiency with them. All copies will break after one hour. This feature restores on a long rest."
+                "{@bold Unlimited Bladeworks} - As an action, you may create a single copy of every weapon or relic you can see. Your copies are lesser than the originals. If the original has any magic bonus, it is reduced by half for the copy. If the original has charges, the copy has half of the maximum amount. After one use, be it an attack or feature, the copy will break. All copies are considered attuned to you, ignoring attunement slots or restrictions, and you have proficiency with them. All copies will break after one hour. This feature restores on a long rest."
+            ]
+        },
+        {
+            "name": "Nexus",
+            "type": "SCF",
+            "wondrous": true,
+            "rarity": "Artifact",
+            "source": "Tyeia",
+            "reqAttune": "by a wizard",
+            "entries": [
+                "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down. This magic bonus is added to your save DC, spell attack modifier, spell damage, and all saves",
+                "{@bold A Spellbook with No Cover} - Nexus has unlimited blank pages. It costs nothing to put spells into this spellbook.",
+                "{@bold Peak of Arcanum} - Nexus gives you a 10th level spell slot. You may only use this to cast lower level spells at this level.",
+                "{@bold Pocket Dimension} - As a bonus action, you may store Nexus in its pocket dimension. When you do this, you trade it for the key to the pocket dimension, a staff that grants the same effects of the spellbook. The staff can be treated as the spellbook for the sake of spellcasting and class/item features. As a bonus action, you may retrieve the spellbook using the staff"
+            ]
+        },
+        {
+            "name": "Rose",
+            "type": "INS",
+            "wondrous": true,
+            "rarity": "Artifact",
+            "source": "Tyeia",
+            "reqAttune": "by a bard",
+            "entries": [
+                "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down. This magic bonus is added to your save DC, spell attack modifier, spell damage, and all saves",
+                "{@bold One Man Band} - Rose can transform into any instrument as a bonus action.",
+                "{@bold Superior Music} - Both your Song of Rest and Bardic Inspiration use the next higher die. When you would normally use a 1d12, you use 1d20",
+                "{@bold Minstrel's Charms} - Over the course of 1 minute, you may have any number of creatures that can hear your music roll either a Wisdom or Charisma saving throw against your spell DC or become charmed by you. Creatures may attempt this save again every minute. If they make their save against this effect, they are immune to it for 24 hours."
+            ]
+        },
+        {
+            "name": "Sentinel",
+            "type": "HA",
+            "armor": true,
+            "ac": 18,
+            "stealth": true,
+            "wondrous": true,
+            "rarity": "Artifact",
+            "source": "Tyeia",
+            "reqAttune": true,
+            "entries": [
+                "{@bold Relic} - This armor grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
+                "{@bold Modes of Operation} - As you level you unlock different modes this armor can operate in:",
+                "- Level 5: Sentry - You may doff/don the armor as an action. When Sentinel is not worn, it will act on its own, following your commands. The armor will activate this mode automatically when you fall unconscious. If you are inside of it when you fall unconscious, you will remain inside of it. When in this mode, Sentinel uses the statblock for a {@creature Warforged Soldier|ERLW} scaled to a CR equal to your level.",
+                "- Level 10: Juggernaut - Your armor doubles in size, producing more plate from seemingly nowhere. This gives the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The base AC of Sentinel rises to 22",
+                        "Your size is now Large, but you gain no bonus to lifting/dragging strength",
+                        "You gain resistance to all damage",
+                        "You deal half damage",
+                        "Your walking speed is halved",
+                        "Your swim speed is zero, but you sink in water",
+                        "Sentinel provides oxygen for you in a sealed environment",
+                        "You have disadvantage on all dexterity checks",
+                        "Your voice can barely be heard from outside the armor"
+                    ]
+                },
+                "- Level 15: Fortress - Sentinel forms itself into a mobile fortress. Sentinel will note who is a friend or foe of the wielder and automatically attack foes. Sentinel cannot move in this form, nor can it be damaged."
+            ]
+        },
+        {
+            "name": "Tenrou",
+            "type": "Companion",
+            "wondrous": true,
+            "rarity": "Artifact",
+            "source": "Tyeia",
+            "reqAttune": "by a nature magic user",
+            "entries": [
+                "{@bold Relic} - This companion grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down. This magic bonus is added to its AC, all saves, attacks, and damage",
+                "{@bold Multipurpose} - Tenrou may transform into any land-dwelling Beast with a maximum CR of a quarter of your level. Its stats change to match.",
+                "{@bold Dutiful} - Tenrou cannot be killed. When it is reduced to 0HP, it goes dormant, entering a sleep-like state for 8 hours, and then is restored to full HP. You can move Tenrou in this state, but Tenrou cannot transform.",
+                "{@bold Heavenly Wolf} - As an action you may speak Tenrou's command word and it will transform into a Huge CR10 {@creature Dire Wolf} for 10 minutes. This ability restores at the dawn at the beginning of the next week."
+            ]
+        },
+        {
+            "name": "Valkyrija",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "dmg1": "1d6",
+            "dmgType": [
+                "S",
+                "B"
+            ],
+            "wondrous": true,
+            "rarity": "Artifact",
+            "source": "Tyeia",
+            "reqAttune": "by a female",
+            "entries": [
+                "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
+                "{@bold Wager} - When attuning to Valkyrija, you accept the terms of its contract. If you die while attuned to Valkyrija, it consumes your soul",
+                "{@bold Bonded Blade} - Should you throw either end of Valkyrija, you can return it to your hand as a free action. You must be holding one end of Valkyrija to use this feature. You may also use Valkyrija to traverse terrain, either by swinging or climbing.",
+                "{@bold Soul Eater} - Valkyrija consumes the souls of its foes. It restores used charges equal to the CR or level of the enemy killed, consuming its soul.",
+                "{@bold Soul Chains} - Valkyrija has 25 charges. You may use these charges to do the following:",
+                "- 1 charge: You may add +1 to any attack roll or damage roll",
+                "- 5 charges: Your melee attacks have a range of 15 feet for 1 minute",
+                "- 10 charges: Restrain an enemy within 10 feet with Valkyrija's chains as an action. This may be considered an attack for the Extra Attack feature",
+                "- 20 charges: The weight end of the sickle transforms into another sickle as soul energy wraps around you. For the next minute, Valkyrija can only deal slashing damage, your melee attacks have a range of 10ft, and you may perform an attack using your bonus action."
             ]
         }
     ]
