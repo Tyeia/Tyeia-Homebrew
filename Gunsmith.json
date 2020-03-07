@@ -30,25 +30,15 @@
                     {
                         "name": "Thundersmith",
                         "entries": [
-                            "{@note This subclass has not been updated to match the class version (1.5.1 -> 2.0.1)}",
                             "A Thundersmith is an Artificer who has crafted a spectacular and terrible device. A Thunder Cannon.",
                             "A weapon of unmatched destruction, an Artificer's reason for forging such a thing is varied. Some seek the power, some seek the discovery.",
                             "For some it is but a tool to accomplish their goal, for others it is the culmination of the work, for which all the pesky details of adventuring are dedicated to.",
                             "Given the destructive potential of a Thunder Cannon, many monsters and men may seek to seize the power for themselves upon witnessing its potential, but even if were to succeed they would soon find that using one of these deadly tools is an art of equal mastery to forging one, something only the one who forged the device will ever truly master, for each Thunder Cannon is unique work, suited only to its creator.",
                             {
                                 "type": "entries",
-                                "name": "Thundersmith's Proficiency",
-                                "entries": [
-                                    "When you choose this specialization at 1st level, you gain proficiency with {@item tinker's tools|phb} and {@item smith's tools|phb}.",
-                                    "You gain the knowledge to forge rounds for your Thunder Cannon, and can create them with the proper tools during a Long Rest.",
-                                    "You can create up to 50 rounds of ammunition during a long rest, with materials costing 1 gold piece per 10 rounds."
-                                ]
-                            },
-                            {
-                                "type": "entries",
                                 "name": "Thunder Cannon",
                                 "entries": [
-                                    "At 1st level, you forge a deadly firearm using a combination of arcane magic and your knowledge of engineering and metallurgy. This firearm is called a Thunder Cannon.",
+                                    "At 3rd level, you forge a deadly firearm using a combination of arcane magic and your knowledge of engineering and metallurgy. This firearm is called a Thunder Cannon.",
                                     "You are proficient with the Thunder Cannon. The firearm is a two-handed ranged weapon that deals {@dice 2d6} piercing damage. Its normal range is 60 feet, and its maximum range is 180 feet.",
                                     "Once fired, it must be reloaded as a bonus action.",
                                     {
@@ -113,7 +103,7 @@
                             {
                                 "name": "Thundermonger",
                                 "entries": [
-                                    "At 3rd level, you've developed the arcane engineering skill to upgrade your Thundercannon to deliver its shots with greater force.",
+                                    "At 5th level, you've developed the arcane engineering skill to upgrade your Thundercannon to deliver its shots with greater force.",
                                     "Once per turn, you can deal an extra {@dice 1d6} thunder damage to one creature you hit with an Attack using Thunder Cannon. After discharging this bonus damage, the you cannot deal this bonus damage again until the start of your next turn.",
                                     "This extra damage increases by 1d6 when you reach certain levels in this class: 5th level ({@dice 2d6}), 7th level ({@dice 3d6}), 9th level ({@dice 4d6}), 11th level ({@dice 5d6}), 13th level ({@dice 6d6}), 15th level ({@dice 7d6}), 17th level ({@dice 8d6}), and 19th level ({@dice 9d6)."
                                 ]
@@ -127,17 +117,6 @@
                                 ]
                             }
                         ]
-                    },
-                    {
-                        "type": "entries",
-                        "entries": [
-                            {
-                                "name": "Thundersmith Upgrades",
-                                "entries": [
-                                    "At 3rd level, you gain an upgrade of your choice. A list of the available options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=AS:C} page. When you gain certain artificer levels, you gain additional upgrades of your choice."
-                                ]
-                            }
-                        ]
                     }
                 ],
                 [
@@ -147,7 +126,7 @@
                             {
                                 "name": "Devastating Blasts",
                                 "entries": [
-                                    "Beginning at 5th level, when you miss an attack with your Thunder Cannon, the target still takes half of the bonus damage from Thundermonger."
+                                    "Beginning at 9th level, when you miss an attack with your Thunder Cannon, the target still takes half of the bonus damage from Thundermonger."
                                 ]
                             }
                         ]
@@ -160,7 +139,7 @@
                             {
                                 "name": "Elemental Swapping",
                                 "entries": [
-                                    "Starting at the 14th level, when you take the attack action with your Thunder Cannon you can adjust the firing chamber, causing any bonus damage granted by Thundermonger to deal Fire, Cold, Acid, or Lightning damage instead of Thunder damage. Alternatively, you can consume a {@item Holy Water (flask)|phb|Vial of Holy Water} to cause your next Thundermonger bonus damage to deal Radiant Damage.",
+                                    "Starting at the 15th level, when you take the attack action with your Thunder Cannon you can adjust the firing chamber, causing any bonus damage granted by Thundermonger to deal Fire, Cold, Acid, or Lightning damage instead of Thunder damage. Alternatively, you can consume a {@item Holy Water (flask)|phb|Vial of Holy Water} to cause your next Thundermonger bonus damage to deal Radiant Damage.",
                                     "You can use this feature a number of times equal to your Intelligence Modifier, regaining all uses on a long rest."
                                 ]
                             }
