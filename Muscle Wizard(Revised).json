@@ -440,7 +440,7 @@
 								}
 							],	
 							"colLabels": [
-								"{@filter Cantrips Known|spells|level=0|class=Wizard|range=Self|range=Touch}"
+								"{@filter Cantrips Known|spells|level=0|class=Wizard|range=Self;Touch}"
 							],
 							"rows": [
 								[
@@ -514,11 +514,11 @@
 								}
 							],
 							"colLabels": [
-								"{@filter 1st|spells|level=1|class=Wizard|range=Self|range=Touch}",
-								"{@filter 2nd|spells|level=2|class=Wizard|range=Self|range=Touch}",
-								"{@filter 3rd|spells|level=3|class=Wizard|range=Self|range=Touch}",
-								"{@filter 4th|spells|level=4|class=Wizard|range=Self|range=Touch}",
-								"{@filter 5th|spells|level=5|class=Wizard|range=Self|range=Touch}"
+								"{@filter 1st|spells|level=1|class=Wizard|range=Self;Touch}",
+								"{@filter 2nd|spells|level=2|class=Wizard|range=Self;Touch}",
+								"{@filter 3rd|spells|level=3|class=Wizard|range=Self;Touch}",
+								"{@filter 4th|spells|level=4|class=Wizard|range=Self;Touch}",
+								"{@filter 5th|spells|level=5|class=Wizard|range=Self;Touch}"
 							],
 						"rows": [
 							[
@@ -814,7 +814,7 @@
 									}
 								],	
 								"colLabels": [
-									"{@filter Cantrips Known|spells|level=0|class=Wizard|range=Self|range=Touch}"
+									"{@filter Cantrips Known|spells|level=0|class=Wizard|range=Self;Touch}"
 								],
 								"rows": [
 									[
@@ -888,15 +888,15 @@
 									}
 								],
 								"colLabels": [
-									"{@filter 1st|spells|level=1|class=Wizard|range=Self|range=Touch}",
-									"{@filter 2nd|spells|level=2|class=Wizard|range=Self|range=Touch}",
-									"{@filter 3rd|spells|level=3|class=Wizard|range=Self|range=Touch}",
-									"{@filter 4th|spells|level=4|class=Wizard|range=Self|range=Touch}",
-									"{@filter 5th|spells|level=5|class=Wizard|range=Self|range=Touch}",
-									"{@filter 6th|spells|level=6|class=Wizard|range=Self|range=Touch}",
-									"{@filter 7th|spells|level=7|class=Wizard|range=Self|range=Touch}",
-									"{@filter 8th|spells|level=8|class=Wizard|range=Self|range=Touch}",
-									"{@filter 9th|spells|level=9|class=Wizard|range=Self|range=Touch}"
+									"{@filter 1st|spells|level=1|class=Wizard|range=Self;Touch}",
+									"{@filter 2nd|spells|level=2|class=Wizard|range=Self;Touch}",
+									"{@filter 3rd|spells|level=3|class=Wizard|range=Self;Touch}",
+									"{@filter 4th|spells|level=4|class=Wizard|range=Self;Touch}",
+									"{@filter 5th|spells|level=5|class=Wizard|range=Self;Touch}",
+									"{@filter 6th|spells|level=6|class=Wizard|range=Self;Touch}",
+									"{@filter 7th|spells|level=7|class=Wizard|range=Self;Touch}",
+									"{@filter 8th|spells|level=8|class=Wizard|range=Self;Touch}",
+									"{@filter 9th|spells|level=9|class=Wizard|range=Self;Touch}"
 								],
 								"rows": [
 									[
