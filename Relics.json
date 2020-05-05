@@ -39,6 +39,7 @@
                 "- 5 charges: {@spell Zone of Truth}",
                 "- 8 charges: {@spell Dominate Person}",
                 "- 10 charges: {@spell Mass Suggestion}",
+                "The level for these spells is their lowest level or half your level(max 9th), whichever is higher.",
                 "Abilities:",
                 "- 3 charges: Adaptive Form - Ascalon Transforms into a greatsword for 5 minutes, giving it the two-handed property and increasing its damage to 2d6",
                 "- 5 charges: Full Counter - Using a reaction when you take an instance of damage, you deal the damage that you take back to the source of the damage. You must take the damage to use this ability.",
@@ -60,8 +61,8 @@
             "reqAttune": true,
             "entries": [
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
-                "{@bold Liars} - Anyone within 60ft must make a DC18 Charisma or Wisdom save when they attempt to speak. If they fail, they must tell a lie.",
-                "{@bold Deceiver} - Your damage is doubled against anyone you have deceived. You also gain advantage on any Deception checks you make."
+                "{@bold Liars} - You may have anyone within 30ft make a DC18 Charisma or Wisdom save when they attempt to speak. If they fail, they must tell a lie.",
+                "{@bold Deceiver} - Your damage is doubled against anyone you have deceived in a large way. You also gain advantage on any Deception checks you make."
             ]
         },
         {
@@ -78,7 +79,7 @@
             "entries": [
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
                 "{@bold Strong Bond} - Covenant will change form to match the weapon type its new user is most familiar with during attunement. If ammunition is needed for the weapon, Covenant will produce its own. After attunement is broken, it will remain in this form until a new user attunes to it.",
-                "{@bold Legacy} - Covenant takes after its users, collecting 3 features or spells from them during the course of its use. After you break attunement with Covenant for the final time, select 3 class features or spells. Covenant will now have these abilities available for future users. The amount of times a feature or spell can be used is also taken from the original owner. These features and spells remain on the weapon permanently, only being replaced if the current user has a superior version."
+                "{@bold Legacy} - Covenant takes after its users, collecting 3 features or spells from them during the course of its use. After you break attunement with Covenant for the final time, select 3 class features or spells. Covenant will now have these abilities available for future users. The amount of times a feature or spell can be used is also taken from the original owner. These features and spells remain on the weapon permanently, only being replaced if the current user has a superior version. These abilities only become available to use once you have reached the level to use them initially. (Example: You can unlock Action Surge(two uses) at level 2, even though Fighters normally unlock the second use at level 17)."
             ]
         },
         {
@@ -111,7 +112,7 @@
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
                 "{@bold Blood Pact} - Attuning to Harbinger requires you to allow it to gorge on your blood. If you allow this, you will lose a number equal to your level in maxiumum HP and gain 1 less HP per level. This pact makes it so your attunement can only be broken if you willingly break attunement.",
                 "{@bold Blood Sense} - You are able to sense the location of any blood bearing creature within 60 feet.",
-                "{@bold Predator} - Harbinger has an amount of charges equal to your level. During a long rest you may spend hit dice to feed Harbinger to restore charges(roll the hit dice). You lose health equal to the amount rolled, and Harbinger gains charges equal to the amount rolled. You may use your charges to do the following:",
+                "{@bold Predator} - Harbinger has an amount of charges equal to your level. You may spend hit dice at any time to feed Harbinger to restore charges(roll the hit dice). You lose health equal to the amount rolled, and Harbinger gains charges equal to the amount rolled. You may use your charges to do the following:",
                 "- 1 charge: As a reaction: Reroll any of your attack or damage rolls you made with Harbinger. You must keep the new result.",
                 "- 5 charges: When making an attack with Harbinger: If your attack hits, you will heal the damage dealt to the enemy. You must choose to use this before you roll for your attack.",
                 "- 10 charges: When making an attack action with Harbinger, you may teleport up to 30 feet to a blood-bearing target. You may only do this before the first attack if you have the Extra Attack feature.",
@@ -136,9 +137,10 @@
             "entries": [
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
                 "{@bold An Odd Fit} - You gain proficiency in halberds while attuned to Io.",
-                "{@bold Attendant} - Whenever you have run out of spell slots and attempt to cast a healing spell, you may spend 10*(the spell's level) hit points to cast the spell. Also, whenever you are within 5 feet of an ally, you gain +1 to AC and all saves.",
+                "{@bold Attendant} - Whenever you have run out of spell slots and attempt to cast a healing spell, you may spend 10*(the spell's level) hit points to cast the spell. Also, whenever you are within 5 feet of an ally, you gain your magic bonus to AC and all saves.",
                 "{@bold To Eternity} - As an action, you may place a willing creature into a suspended animation. This creature will not age, cannot be damaged, and needs no food or water. This creature will remain in this state until a set point, decided when Io's user put them in this state, or until a user of Io releases them. Io can only hold one creature in suspended animation at a time.",
-                "{@bold Dweller in the Dark} - During a long rest, you may summon a white tree that casts {@spell Goodberry} This feature restores at dawn the day after it was used."
+                "{@bold Dweller in the Dark} - During a long rest, you may summon a white tree that casts {@spell Goodberry} This feature restores at dawn the day after it was used.",
+                "The level for this spell is its lowest level or half your level(max 9th), whichever is higher."
             ]
         },
         {
@@ -161,7 +163,8 @@
                 "{@bold Anti-Magic} - Logia innately bypasses the effects of {@spell Shield} and {@spell Mage Armor}. If its user develops spell slots, Logia will consume all of them and not allow them to restore. Additionally, Logia has 15 charges, which fully restore at dawn. You may cast the following spells using these charges:",
                 "- 3 charges: {@spell Counterspell}",
                 "- 3 charges: {@spell Dispel Magic}",
-                "- 10 charges: {@spell Antimagic Field}"
+                "- 10 charges: {@spell Antimagic Field}",
+                "The level for these spells is their lowest level or half your level(max 9th), whichever is higher."
             ]
         },
         {
@@ -173,7 +176,7 @@
             "reqAttune": "by an artificer",
             "entries": [
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down. This magic bonus is added to your AC",
-                "{@bold Trace} - You may improve the quality of a weapon you are holding as an action, giving it a +1 magic bonus for 1 minute. You can only do this a number of times equal to your proficiency bonus per long rest.",
+                "{@bold Trace} - You may improve the quality of a weapon you are holding as an action, giving it Mantle's magic bonus for 1 minute. You can only do this a number of times equal to your proficiency bonus per long rest.",
                 "{@bold Unlimited Bladeworks} - As an action, you may create a single copy of every weapon or relic you can see. Your copies are lesser than the originals. If the original has any magic bonus, it is reduced by half for the copy. If the original has charges, the copy has half of the maximum amount. After one use, be it an attack or feature, the copy will break. All copies are considered attuned to you, ignoring attunement slots or restrictions, and you have proficiency with them. All copies will break after one hour. This feature restores on a long rest."
             ]
         },
@@ -187,7 +190,7 @@
             "entries": [
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down. This magic bonus is added to your save DC, spell attack modifier, spell damage, and all saves",
                 "{@bold A Spellbook with No Cover} - Nexus has unlimited blank pages. It costs nothing to put spells into this spellbook.",
-                "{@bold Peak of Arcanum} - Nexus gives you a 10th level spell slot. You may only use this to cast lower level spells at this level.",
+                "{@bold Peak of Arcanum} - Nexus gives you a spell slot of a level equal to half of your level, round up(max 10th). You may only use this to cast lower level spells at this level.",
                 "{@bold Pocket Dimension} - As a bonus action, you may store Nexus in its pocket dimension. When you do this, you trade it for the key to the pocket dimension, a staff that grants the same effects of the spellbook. The staff can be treated as the spellbook for the sake of spellcasting and class/item features. As a bonus action, you may retrieve the spellbook using the staff"
             ]
         },
@@ -234,7 +237,7 @@
                         "Your voice can barely be heard from outside the armor"
                     ]
                 },
-                "- Level 15: Fortress - Sentinel forms itself into a mobile fortress. Sentinel will note who is a friend or foe of the wielder and automatically attack foes. Sentinel cannot move in this form, nor can it be damaged."
+                "- Level 15: Golem - You can use Sentry and Juggernaut together. When you do this, use the {@creature Iron Golem|MM} statblock with an AC of 22 for the armor instead of the {@creature Warforged Soldier|ERLW} statblock."
             ]
         },
         {
