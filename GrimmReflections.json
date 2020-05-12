@@ -1,0 +1,735 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tyeia",
+				"abbreviation": "TMW",
+				"full": "Tyeia's Homebrew",
+				"authors": [
+					"Tyeia",
+					"Toastghost"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"targetSchema": "1.2.3"
+			}
+		],
+		"dateAdded": 1589271956,
+		"dateLastModified": 1589271956
+	},
+	"monster": [
+		{
+			"name": "Weisse Frau",
+			"shortName": true,
+			"source": "Tyeia",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 60",
+				"average": 150
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 18,
+			"con": 17,
+			"int": 11,
+			"wis": 14,
+			"cha": 19,
+			"save": {
+				"dex": "+9",
+				"cha": "+9"
+			},
+			"skill": {
+				"arcana": "+5",
+				"perception": "+7",
+				"performance": "+9"
+			},
+			"passive": 17,
+			"resist": [
+				"cold"
+			],
+			"languages": [
+				"Understands Common but can't speak"
+			],
+			"cr": "13",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The weisse frau is a 13th-level spellcaster. Its spellcastlng ability is Charisma (spell save {@dc 17}, +9 to hit with spell attacks). The weisse frau has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Chill Touch}",
+								"{@spell Frostbite|XGE}",
+								"{@spell Ray of Frost}",
+								"{@spell True Strike}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell Ice Knife|XGE}",
+								"{@spell Magic Missile}",
+								"{@spell Shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell Maximilian's Earthen Grasp|XGE}",
+								"{@spell Misty Step}",
+								"{@spell Spider Climb}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell Haste}",
+								"{@spell Sleet Storm}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell Charm Monster|XGE}",
+								"{@spell Ice Storm}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Cone of Cold}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell Investiture of Ice|XGE}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell Prismatic Spray}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aura of Isolation",
+					"entries": [
+						"Any creature other than the weisse frau within 1 mile that ends its turn within 5 ft. of another living creature must expend a reaction to move 5 ft. away from the creature or take {@damage 1d8} psychic damage. The aura is supressed if the weisse frau is {@condition charmed}."
+					]
+				},
+				{
+					"name": "Grimm Sense",
+					"entries": [
+						"The weisse frau knows the exact location of any other creature that is {@condition frightened} within 60 ft."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The weisse frau has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/day)",
+					"entries": [
+						"If the weisse frau fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Edelweiss",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Summon Death Knight (1/day)",
+					"entries": [
+						"The weisse frau summons a death knight at a point within 30 ft. The death knight has 90 hit points and does not poessess its spellcasting feature. The death knight is friendy towards the weisse frau and acts on its own initiative. The death knight disappears if it or the weiss frau is killed."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The weisse frau makes one weapon attack or casts one cantrip with a casting time of one action."
+					]
+				},
+				{
+					"name": "Howl",
+					"entries": [
+						"One creature of the weisse frau's choice that is within 120 feet of the weisse frau and can hear it must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} for l minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the weisse frau's Howl for the next 24 hours."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Unlike most other grimm, the weisse frau will rarely attack groups unprovoked, even those with exceedingly negative emotions. It will also rarely venture far into uninhabited territory. Instead, it skulks near towns and villages.",
+					"While the weisse frau's aura has an immediate effect on the population of a town, it is the prolonged exposure that wears away the will of homes, families, and shops until people begin to abandon the community, seeking a safer haven. When this happens, the weisse frau waits along roads leading out of the community and attacks lone individuals. Many people recount a chill in the air during their last days before fleeing, even at the height of summer.",
+					"Though rare, the weisse frau may sing in an unintelligible language. Its voice carries far and those that hear it describe it as beautiful and lonely. Due to its nature, it is possible for people to encounter the weisse frau without being attacked. Those that see it recount the event inevitably describe the weisse frau as noble and elegant, yet unapproachable."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a89a23b5-b6bd-47ea-9625-776bd1027475/dcrixag-d41b8da3-6fc7-4aab-a79a-64636d298228.png/v1/fill/w_1197,h_667,q_70,strp/grimmed_snow_by_dishwasher1910_dcrixag-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD04OTIiLCJwYXRoIjoiXC9mXC9hODlhMjNiNS1iNmJkLTQ3ZWEtOTYyNS03NzZiZDEwMjc0NzVcL2Rjcml4YWctZDQxYjhkYTMtNmZjNy00YWFiLWE3OWEtNjQ2MzZkMjk4MjI4LnBuZyIsIndpZHRoIjoiPD0xNjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.FO2aFJ8KXOR7B4U1H4FIgFy0JHAqI1gg5EWRtcsaJX4"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/641392852450017320/709681279934660619/WeisseFrau.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"uniqueId": "f8702d890e042c2e3f99a7edeb9cf52e"
+		},
+		{
+			"name": "Hell Kite",
+			"size": "M",
+			"type": "monstrosity",
+			"source": "Tyeia",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 100",
+				"average": 190
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 20,
+			"int": 7,
+			"wis": 14,
+			"cha": 16,
+			"passive": 17,
+			"cr": "13",
+			"languages": [
+				"Understands Common but can't speak"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"save": {
+				"str": "+10",
+				"con": "+10"
+			},
+			"skill": {
+				"athletics": "+10",
+				"intimidation": "+8",
+				"perception": "+7"
+			},
+			"trait": [
+				{
+					"name": "Aura of Defeat",
+					"entries": [
+						"Any {@condition frightened} creature that can see or hear the hell kit must spend its turns trying to move as far away from the hell kite as it can, and it can't willingly move to a space within 30 feet of the hell kite."
+					]
+				},
+				{
+					"name": "Damage Growth",
+					"entries": [
+						"Whenever the hell kite takes damage, the damage dealt by the next open palm strike increases by {@dice 1d6}."
+					]
+				},
+				{
+					"name": "Grimm Sense",
+					"entries": [
+						"The hell kite knows the exact location of any other creature that is {@condition frightened} within 60 ft."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the hell kite fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The hell kite deals double damage to objects and structures."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Siege Monster"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hell kite can use its Spin Up. It then makes up to three attacks."
+					]
+				},
+				{
+					"name": "Open Palm Strike",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) bludgeoning damage and the target must succeed a {@dc 18} Strength saving throw or become {@condition grappled}. The hell kite can can only have 1 creature {@condition grappled} at a time and can use a free action to release a creature it has {@condition grappled}."
+					]
+				},
+				{
+					"name": "Giant Toss",
+					"entries": [
+						"The hell kite throws one {@condition grappled} creature up to 30 ft. away. The creature takes 12 ({@damage 2d6 + 5}) bludgeoning damage and lands {@condition prone}. If the space is occupied by another creature, that creature must succeed a {@dc 18} Dexterity saving throw or take 19 ({@damage 4d6 + 5}) bludgeoning damage and the thrown creature lands within 5 ft. of the targeted creature."
+					]
+				},
+				{
+					"name": "Spin Up",
+					"entries": [
+						"The hell kite gains 1 charge, up to a maximum of 3."
+					]
+				},
+				{
+					"name": "Burst Shot (Expends 1 charge)",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 30/120 ft., one target. {@h}15 ({@damage 3d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Blaze Reap (Expends 3 charges)",
+					"entries": [
+						"The hell kite unleashes a swath of explosive shells in a 60 ft. cone. Any creature in the line must make a {@dc 16} Dexterity saving throw, taking 67 ({@damage 15d8}) force damage on a failed save, or half as much on a successful one. In addition, the hail of explosions destroys non-magical obstacles in the cone; up to 15 ft. of soft earth or wood, 5 ft. of solid stone, and 1 ft. of metal."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"frightened"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The hell kite makes one weapon attack."
+					]
+				},
+				{
+					"name": "Spin Up",
+					"entries": [
+						"The hell kite gains 1 charge, up to a maximum of 3."
+					]
+				},
+				{
+					"name": "Howl",
+					"entries": [
+						"One creature of the hell kite's choice that is within 120 feet of the hell kite and can hear it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for l minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hell kite's Howl for the next 24 hours."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A hero is one who feels fear and continues to move forward. A coward faces fear with their backside. The hell kite is a creature of grimm that seeks to inspire cowardice in anyone it faces. Far from the more subtle and indirect approach of other old and wise grimm, once the hell kite has found a target, be it a single individual or an entire city, it will charge forward to cause as much surprise and confusion as it can. It's terrifying howl causes even the bravest to turn tail and flee, abandoning their friends.",
+					"The hell kite mercilessly hunts down those that flee, reveling in the thrill of the hunt, destroying anyone or anything that might prevent it from catching its quarry.",
+					"Those that see the hell kite and live say that it reminds them of a powerful fighter, one that would never back down. A couragous soul in stark contrast to the terror they saw."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/641392852450017320/709664099973464166/unknown.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/641392852450017320/709681302013739008/HellKite.png"
+		},
+		{
+			"name": "Barkarole",
+			"size": "M",
+			"type": "monstrosity",
+			"source": "Tyeia",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 20,
+			"dex": 15,
+			"con": 18,
+			"int": 8,
+			"wis": 14,
+			"cha": 16,
+			"passive": 17,
+			"cr": "13",
+			"shortName": true,
+			"languages": [
+				"Understands Common but can't speak"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"save": {
+				"str": "+10",
+				"dex": "+7"
+			},
+			"skill": {
+				"animal handling": "+7",
+				"deception": "+8",
+				"perception": "+7"
+			},
+			"trait": [
+				{
+					"name": "Aura of Despair",
+					"entries": [
+						"Any creature other than the barkarole within 1 mile cannot gain temporary hit points or advantage on skill checks and saving throws. In addition, whenever a creature heals damage, the damage healed is halved, and creatures regain no hit dice on a long rest or recover {@condition exhaustion}."
+					]
+				},
+				{
+					"name": "Great Scythe Master",
+					"entries": [
+						"Before the barkarole makes a Waning Rose attack, it can take a -5 penalty to the attack roll. If the attack hits, +10 to the attack's damage."
+					]
+				},
+				{
+					"name": "Grimm Sense",
+					"entries": [
+						"The barkarole knows the exact location of any other creature that is {@condition frightened} within 60 ft."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/day)",
+					"entries": [
+						"If the barkarole fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The barkarole makes up to three weapon attacks."
+					]
+				},
+				{
+					"name": "Waning Rose",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d12 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Snipe",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) fire, lightning, or piercing damage."
+					]
+				},
+				{
+					"name": "Red Like Roses {@recharge 5}",
+					"entries": [
+						"The barkarole conjures a whirlwind of rose petals in a 10 ft. radius around itself and gains 80 ft. of movement until the end of its turn. The whirlwind moves with the barkarole. The barkarole can use this movement to move through the air as though flying. The whirlwind sucks up any medium or smaller objects that aren’t secured to anything and that aren’t worn or carried by anyone. A creature must make a DC16 Strength saving throw the first time that the whirlwind enters its space, including when the whirlwind first appears. A creature takes 35 ({@damage 10d6}) bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save moves with the whirlwind."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The barkarole makes one weapon attack."
+					]
+				},
+				{
+					"name": "Howl",
+					"entries": [
+						"One creature of the barkarole's choice that is within 120 feet of the barkarole and can hear it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for l minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the barkarole's Howl for the next 24 hours."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"fluff": {
+				"entries": [
+					"Those who have encountered the barkarole and lived to tell the tale often mention that the creature reminds them of a person, a leader that inspires hope for the future, but the barkarole itself could not be further from this.",
+					"The barkarole is a wanderer, never staying in one place for very long, yet it lingers around populated areas, circling borders of towns and villages while never getting too close, waiting. Its presence near a community slowly drains the poulation of energy and hope. Eventually the workings of the community begin to fall apart. People become despondant and defenses falter. Once the community is weakened, the barkarole walks in and slaughters the inhabitants.",
+					"The barkarole always leaves one inhabitant alive, someone who can flee and lead the barkarole to a new settlement. When away from towns and villages, the barkarole avoids targeting individuals, prefering to follow them from a distance until the barkarole is led to a larger community."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a89a23b5-b6bd-47ea-9625-776bd1027475/dcrfk7j-ad17f472-9d15-4bc4-92bc-fb09f625ab27.png/v1/fill/w_1197,h_667,q_70,strp/grimmed_rose_by_dishwasher1910_dcrfk7j-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD04OTIiLCJwYXRoIjoiXC9mXC9hODlhMjNiNS1iNmJkLTQ3ZWEtOTYyNS03NzZiZDEwMjc0NzVcL2RjcmZrN2otYWQxN2Y0NzItOWQxNS00YmM0LTkyYmMtZmIwOWY2MjVhYjI3LnBuZyIsIndpZHRoIjoiPD0xNjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.l2K4d4vkJTkIJloRPay-jKLPBVcWYhB5ylw1i5f1M8o"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/641392852450017320/709681293167820830/Barkarole.png"
+		},
+		{
+			"name": "Asclepius",
+			"size": "M",
+			"type": "monstrosity",
+			"source": "Tyeia",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 40",
+				"average": 130
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 8,
+			"dex": 21,
+			"con": 14,
+			"int": 9,
+			"wis": 15,
+			"cha": 20,
+			"passive": 17,
+			"cr": "13",
+			"shortName": true,
+			"save": {
+				"dex": "+10",
+				"cha": "+10"
+			},
+			"skill": {
+				"acrobatics": "+10",
+				"deception": "+10",
+				"perception": "+7"
+			},
+			"languages": [
+				"Understands Common but can't speak"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"trait": [
+				{
+					"name": "Aura of Lies",
+					"entries": [
+						"Any Wisdom (Insight) check made by a creature other than the asclepius to discern whether a creature other than the asclepius is lying made within 1 mile of the asclepius reveals the creature to be lying, even if it is telling the truth. This aura is supressed while the asclepius is within a zone of truth."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the asclepius can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Grimm Sense",
+					"entries": [
+						"The asclepius knows the exact location of any other creature that is {@condition frightened} within 60 ft."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/day)",
+					"entries": [
+						"If the asclepius fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The asclepius' spellcasting ability is Charisma (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell Disguise Self}",
+						"{@spell Mage Hand}",
+						"{@spell Silent Image}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell Dominate Person}",
+							"{@spell Nystul's Magic Aura}",
+							"{@spell Tongues}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The asclepius makes up to three weapon attacks."
+					]
+				},
+				{
+					"name": "Fell Masquarade",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Rock Clone",
+					"entries": [
+						"When the asclepius would be hit by a melee attack, it takes no damage, teleports to an adjacent square, and a copy of itself made of solid stone is created in the spot it occupied. The attacking creature must succeed a {@dc 15} Strength saving throw or be {@condition restrained} by the rock clone. The rock clone has an AC of 17 and 20 hit points. A creature can attempt to free a {@condition restrained} creature by using an action within 5 ft. of the {@condition restrained} creature to repeat the saving throw."
+					]
+				}
+			],
+			"conditionInflict": [
+				"restrained",
+				"frightened"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The asclepius makes one weapon attack."
+					]
+				},
+				{
+					"name": "Howl",
+					"entries": [
+						"One creature of the asclepius' choice that is within 120 feet of the asclepius and can hear it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for l minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the asclepius' Howl for the next 24 hours."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The asclepius does not kill so much as it breeds murder. It modus operandi is typically to disguise itself as a human or faunus and infiltrate a community. Once inside it will attempt to build trust with regular communication and interactions, but will occassionally sidestep this by killing an inhabitant and taking their place. At the same time, it begins sowing distrust with the use of illusions and lies, turning the inhabitants against one another.",
+					"This will continue until it believes the inhabitants are all paranoid and fearful, at which point it will take control of an inhabitant and force them to kill. If tensions are sufficiently high enough, this may trigger a mass panic, leading to more attacks, as neighbor attacks neighbor and blood flows in the streets. The asclepius may use the confusion to attack inhabitants on its own, but usually prefers to watch from a safe vantage point to not get caught up in the chaos.",
+					"Those who witness the asclepius when it is not in disguise say it reminds them of a thing that does not seem to belong but cannot be denied, a force of revolution."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a89a23b5-b6bd-47ea-9625-776bd1027475/dcsbexk-acff4e56-bde2-4c10-bb44-b68bb71149e9.png/v1/fill/w_1197,h_667,q_70,strp/grimm_blake_by_dishwasher1910_dcsbexk-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD04MjUiLCJwYXRoIjoiXC9mXC9hODlhMjNiNS1iNmJkLTQ3ZWEtOTYyNS03NzZiZDEwMjc0NzVcL2Rjc2JleGstYWNmZjRlNTYtYmRlMi00YzEwLWJiNDQtYjY4YmI3MTE0OWU5LnBuZyIsIndpZHRoIjoiPD0xNDgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.lzLVGHPh8tzqbR0JrKVSnATTw7F6sL2vQNdqJc5wKzY"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a89a23b5-b6bd-47ea-9625-776bd1027475/dcsbvuc-ba36db75-1861-4d11-a576-e10055750526.png/v1/fill/w_800,h_1100,q_80,strp/am_i_prettier___by_dishwasher1910_dcsbvuc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMTAwIiwicGF0aCI6IlwvZlwvYTg5YTIzYjUtYjZiZC00N2VhLTk2MjUtNzc2YmQxMDI3NDc1XC9kY3NidnVjLWJhMzZkYjc1LTE4NjEtNGQxMS1hNTc2LWUxMDA1NTc1MDUyNi5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.caGer-XLDCv0nivDFjHiYGC2qFwNK86TfeXah7e0NjE"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/641392852450017320/709681289296347136/Asclepius.png"
+		}
+	]
+}
