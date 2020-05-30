@@ -1,0 +1,362 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tyeia",
+				"abbreviation": "TMW",
+				"full": "Tyeia's Homebrew",
+				"authors": [
+					"Tyeia",
+					"Toastghost"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"targetSchema": "1.2.3"
+			}
+		],
+		"dateAdded": 1590806059,
+		"dateLastModified": 1590806059
+	},
+	"monster": [
+		{
+			"name": "Licker",
+			"source": "Tyeia",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 19,
+				"formula": "3d6 + 9"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 17,
+			"int": 4,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"stealth": "+10"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 11,
+			"vulnerable": [
+				{
+					"special": "Any damage aimed specifically at its head (23 AC)"
+				}
+			],
+			"languages": [
+				"Cannot understand language"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Quickness (Recharges after a Short or Long Rest)",
+					"entries": [
+						"The licker can take an extra action on its turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The licker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The licker makes two tentacle attacks."
+					]
+				},
+				{
+					"name": "Tongue",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}15 ({@damage 4d4 + 5}) bludgeoning damage plus 8 ({@damage 1d6 + 5}) piercing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the licker can't use this tentacle on another target. The licker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					" The licker is a special kind of undead, where its brain has outgrown its skull, destroying its eyes in the process. It primarily attacks with its prehensile tongue, climbing on walls or ceilings to reach its targets."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aeeec077-4fc0-4c90-a842-435213c2fa17/dd5fxuk-605b26ea-9823-48d3-85aa-ec526e9cdf80.jpg/v1/fill/w_600,h_1000,q_75,strp/licker_by_aleigh_farris_dd5fxuk-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDAwIiwicGF0aCI6IlwvZlwvYWVlZWMwNzctNGZjMC00YzkwLWE4NDItNDM1MjEzYzJmYTE3XC9kZDVmeHVrLTYwNWIyNmVhLTk4MjMtNDhkMy04NWFhLWVjNTI2ZTljZGY4MC5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.QvTGAkZi57jyoqKaWwcwjV6lIVVijkhf5xE5KXzPPaY"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/641392852450017320/712177112198414347/Licker.png",
+			"altArt": [
+				{
+					"name": "Choker (Alt)",
+					"source": "TftYP"
+				}
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"uniqueId": "fdc044b988b67e93eadff45041c064c1"
+		},
+		{
+			"name": "Hunter",
+			"source": "Tyeia",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 33",
+				"average": 82
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 17,
+			"int": 11,
+			"wis": 12,
+			"cha": 12,
+			"skill": {
+				"perception": "+7"
+			},
+			"passive": 17,
+			"languages": [
+				"Cannot understand language"
+			],
+			"cr": "5",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"In bear form, the hunter makes two claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Leap",
+					"entries": [
+						"The hunter leaps at a target within 30 feet, moving within 5 feet of them and making one claw attack."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest",
+				"hill"
+			],
+			"fluff": {
+				"entries": [
+					"The hunter is a heavily armored undead, specializing in dealing high damage. It is known to leap at its targets, dealing a devastating blow in the process."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/14/71/a2/1471a256131a02be4a7eb6198a6ad48c.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://media.discordapp.net/attachments/641392852450017320/712183499611963444/hunter.png",
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "36c11031b8681ba562faa8bb55311d31"
+		},
+		{
+			"name": "Tyrant",
+			"source": "Tyeia",
+			"size": "L",
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 210,
+				"formula": "20d10 + 100"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 24,
+			"dex": 9,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 1,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The tyrant is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The tyrant's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Unkillable",
+					"entries": [
+						"When the tyrant reaches 0 hit points, it does not die. At this point, the tyrant will die if it takes 63 damage in a single player's turn."
+					]
+				},
+				{
+					"name": "Top Heavy",
+					"entries": [
+						"If the tyrant takes 42 damage on a single player's turn, it will be {@condition stunned} during its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tyrant makes two melee attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Siege Break",
+					"entries": [
+						"The tyrant can break through stone walls 5 feet thick or smaller, putting them on the other side of the wall."
+					]
+				}
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/641392852450017320/716116571378024468/TyrantToken.png",
+			"traitTags": [
+				"Immutable Form",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"uniqueId": "82623741a7a4949b222ae8a797924cfa"
+		}
+	]
+}

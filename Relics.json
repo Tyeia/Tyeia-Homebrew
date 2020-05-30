@@ -251,7 +251,7 @@
                 "{@bold Relic} - This companion grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down. This magic bonus is added to its AC, all saves, attacks, and damage",
                 "{@bold Multipurpose} - Tenrou may transform into any land-dwelling Beast with a maximum CR of a quarter of your level. Its stats change to match.",
                 "{@bold Dutiful} - Tenrou cannot be killed. When it is reduced to 0HP, it goes dormant, entering a sleep-like state for 8 hours, and then is restored to full HP. You can move Tenrou in this state, but Tenrou cannot transform.",
-                "{@bold Heavenly Wolf} - As an action you may speak Tenrou's command word and it will transform into a Huge CR10 {@creature Dire Wolf} for 10 minutes. This ability restores at the dawn at the beginning of the next week."
+                "{@bold Heavenly Wolf} - As an action you may speak Tenrou's command word and it will transform into a Huge {@creature Dire Wolf} with a CR of half your level for 10 minutes. This ability restores at the dawn at the beginning of the next week."
             ]
         },
         {
