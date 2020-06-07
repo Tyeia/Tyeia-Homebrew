@@ -137,10 +137,9 @@
             "entries": [
                 "{@bold Relic} - This weapon grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
                 "{@bold An Odd Fit} - You gain proficiency in halberds while attuned to Io.",
-                "{@bold Attendant} - Whenever you have run out of spell slots and attempt to cast a healing spell, you may spend 10*(the spell's level) hit points to cast the spell. Also, whenever you are within 5 feet of an ally, you gain your magic bonus to AC and all saves.",
+                "{@bold Attendant} - Whenever you attempt to cast a healing spell, you may spend 10*(the spell's level) hit points to cast the spell instead of a spell slot. When you cast a healing spell in this way, your healing has cascade(exploding dice). Also, whenever you are within 5 feet of an ally, you gain your magic bonus to AC and all saves.",
                 "{@bold To Eternity} - As an action, you may place a willing creature into a suspended animation. This creature will not age, cannot be damaged, and needs no food or water. This creature will remain in this state until a set point, decided when Io's user put them in this state, or until a user of Io releases them. Io can only hold one creature in suspended animation at a time.",
-                "{@bold Dweller in the Dark} - During a long rest, you may summon a white tree that casts {@spell Goodberry} This feature restores at dawn the day after it was used.",
-                "The level for this spell is its lowest level or half your level(max 9th), whichever is higher."
+                "{@bold Dweller in the Dark} - During a long rest, you may summon a white tree that casts {@spell Goodberry} This feature restores at dawn the day after it was used."
             ]
         },
         {
