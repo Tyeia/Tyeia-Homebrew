@@ -232,6 +232,7 @@
             "name": "Sentinel",
             "type": "HA",
             "armor": true,
+            "baseItem": "plate armor|PHB",
             "ac": 18,
             "stealth": true,
             "wondrous": true,
@@ -257,7 +258,8 @@
                         "Your voice can barely be heard from outside the armor"
                     ]
                 },
-                "- Level 15: Golem - You can use Sentry and Juggernaut together. When you do this, use the {@creature Iron Golem|MM} statblock with an AC of 22 for the armor instead of the {@creature Warforged Soldier|ERLW} statblock."
+                "- Level 15: Golem - You can use Sentry and Juggernaut together. When you do this, use the {@creature Iron Golem|MM} statblock with an AC of 22 for the armor instead of the {@creature Warforged Soldier|ERLW} statblock.",
+                "- Level 20: Fortress - You become invulnerable for 10 minutes, but while you are invulnerable in this way you are treated as if you were under the effects of {@spell Feeblemind|PHB}. You can only use this ability while wearing Sentinel."
             ]
         },
         {
