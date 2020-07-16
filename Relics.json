@@ -13,13 +13,30 @@
 				"targetSchema": "1.0.0"
             }
         ],
+        "ItemTypes": {
+            "D": "diadem",
+            "C": "companion"
+        },
         "dateAdded": 0
     },
+    "itemType":[
+        {
+            "abbreviation": "D",
+            "source": "Tyeia",
+            "name": "diadem"
+        },
+        {
+            "abbreviation": "C",
+            "source": "Tyeia",
+            "name": "companion"
+        }
+    ],
     "item":[
         {
             "name": "Ascalon",
             "type": "M",
             "weaponCategory": "Martial",
+            "baseItem": "longsword|PHB",
             "dmg1": "1d8",
             "dmg2": "1d10",
             "dmgType": "S",
@@ -40,6 +57,7 @@
                 "- 8 charges: {@spell Dominate Person}",
                 "- 10 charges: {@spell Mass Suggestion}",
                 "The level for these spells is their lowest level or half your level(max 9th), whichever is higher.",
+                "The Spell DC for these spells is (8 + Proficiency + Charisma + Magic Bonus)",
                 "Abilities:",
                 "- 3 charges: Adaptive Form - Ascalon Transforms into a greatsword for 5 minutes, giving it the two-handed property and increasing its damage to 2d6",
                 "- 5 charges: Full Counter - Using a reaction when you take an instance of damage, you deal the damage that you take back to the source of the damage. You must take the damage to use this ability.",
@@ -50,6 +68,7 @@
             "name": "Belial",
             "type": "M",
             "weaponCategory": "Simple",
+            "baseItem": "dagger|PHB",
             "dmg1": "2d4",
             "dmgType": "S",
             "property": [
@@ -84,7 +103,7 @@
         },
         {
             "name": "Duo",
-            "type": "Diadem",
+            "type": "D",
             "wondrous": true,
             "rarity": "Artifact",
             "source": "Tyeia",
@@ -123,6 +142,7 @@
             "name": "Io",
             "type": "M",
             "weaponCategory": "Martial",
+            "baseItem": "halberd|PHB",
             "dmg1": "1d10",
             "dmgType": "S",
             "property": [
@@ -146,6 +166,7 @@
             "name": "Logia",
             "type": "M",
             "weaponCategory": "Martial",
+            "baseItem": "greatsword|PHB",
             "dmg1": "2d6",
             "dmgType": "S",
             "property": [
@@ -241,7 +262,7 @@
         },
         {
             "name": "Tenrou",
-            "type": "Companion",
+            "type": "C",
             "wondrous": true,
             "rarity": "Artifact",
             "source": "Tyeia",
@@ -256,6 +277,7 @@
         {
             "name": "Valkyrija",
             "type": "M",
+            "baseItem": "sickle|PHB",
             "weaponCategory": "Simple",
             "dmg1": "1d6",
             "dmgType": [
@@ -275,7 +297,7 @@
                 "- 1 charge: You may add +1 to any attack roll or damage roll",
                 "- 5 charges: Your melee attacks have a range of 15 feet for 1 minute",
                 "- 10 charges: Restrain an enemy within 10 feet with Valkyrija's chains as an action. This may be considered an attack for the Extra Attack feature",
-                "- 20 charges: The weight end of the sickle transforms into another sickle as soul energy wraps around you. For the next minute, Valkyrija can only deal slashing damage, your melee attacks have a range of 10ft, and you may perform an attack using your bonus action."
+                "- 20 charges: The weight end of the sickle transforms into another sickle as soul energy wraps around you. For the next minute, Valkyrija can only deal slashing damage, your melee attacks have a range of 10ft, and you may perform an extra attack using your bonus action."
             ]
         }
     ]
