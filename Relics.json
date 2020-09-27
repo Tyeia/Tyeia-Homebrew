@@ -242,7 +242,7 @@
             "entries": [
                 "{@bold Relic} - This armor grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down.",
                 "{@bold Modes of Operation} - As you level you unlock different modes this armor can operate in:",
-                "- Level 5: Sentry - You may doff/don the armor as an action. When Sentinel is not worn, it will act on its own, following your commands. The armor will activate this mode automatically when you fall unconscious. If you are inside of it when you fall unconscious, you will remain inside of it. When in this mode, Sentinel uses the statblock for a {@creature Warforged Soldier|ERLW} scaled to a CR equal to your level.",
+                "- Level 5: Sentry - You may doff/don the armor as an action. When Sentinel is not worn, it will act on its own, following your commands. The armor will activate this mode automatically when you fall unconscious. If you are inside of it when you fall unconscious, you will remain inside of it. When in this mode, Sentinel uses the statblock for a Warforged Soldier scaled to a CR equal to 1/4th of your level. If reduced to 0 hitpoints, the armor cannot use this ability until the next dawn, but still can be donned as an action.",
                 "- Level 10: Juggernaut - Your armor doubles in size, producing more plate from seemingly nowhere. This gives the following effects:",
                 {
                     "type": "list",
@@ -258,7 +258,7 @@
                         "Your voice can barely be heard from outside the armor"
                     ]
                 },
-                "- Level 15: Golem - You can use Sentry and Juggernaut together. When you do this, use the {@creature Iron Golem|MM} statblock with an AC of 22 for the armor instead of the {@creature Warforged Soldier|ERLW} statblock.",
+                "- Level 15: Golem - You can use Sentry and Juggernaut together. When you do this, use the Iron Golem statblock with an AC of 22 and a CR of 3/4ths of your level for the armor instead of the Warforged Soldier statblock. This Iron Golem does not have Poison Breath. You can only use this ability once per week.",
                 "- Level 20: Fortress - You become invulnerable for 10 minutes, but while you are invulnerable in this way you are treated as if you were under the effects of {@spell Feeblemind|PHB}. You can only use this ability while wearing Sentinel."
             ]
         },

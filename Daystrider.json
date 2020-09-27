@@ -1,0 +1,150 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tyeia",
+				"abbreviation": "TMW",
+				"full": "Tyeia's Homebrew",
+				"authors": [
+					"Tyeia"
+				],
+				"version": "1.0",
+				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1601180837,
+		"dateLastModified": 1601180837
+	},
+	"monster": [
+		{
+			"name": "Daystrider",
+			"source": "Tyeia",
+			"page": 216,
+			"size": "H",
+			"type": "celestial",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 297,
+				"formula": "22d12 + 154"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 40
+			},
+			"str": 22,
+			"dex": 19,
+			"con": 24,
+			"int": 6,
+			"wis": 9,
+			"cha": 8,
+			"save": {
+				"con": "+13"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"poison",
+				"radiant"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Regenerating Aura",
+					"entries": [
+						"Any creature that starts its turn within 30 feet of the nightwalker must succeed on a {@dc 21} Constitution saving throw or heal 14 ({@damage 4d6}) health. A creature's hitpoint maximum is reduced by any amount over their maximum they would be healed until the next long rest. A creature dies if it's hitpoint maximum hits 0, the creature dies. Undead and constructs are immune to this aura."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The nightwalker uses Energetic Focus twice, or it uses Energetic Focus and Finger of Life, if available."
+					]
+				},
+				{
+					"name": "Energetic Focus",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}28 ({@damage 5d8 + 6}) radiant damage. The target must succeed on a {@dc 21} Constitution saving throw or its hit point maximum is reduced by an amount equal to the radiant damage taken. This reduction lasts until the target finishes a long rest."
+					]
+				},
+				{
+					"name": "Finger of Life {@recharge}",
+					"entries": [
+						"The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 21} Wisdom saving throw or take 26 ({@damage 4d12}) radiant damage and become {@condition blinded} until the end of the nightwalker's next turn. While {@condition blinded} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"desert",
+				"swamp",
+				"underdark"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdna.artstation.com/p/assets/images/images/026/425/466/large/ian-marcuson-light-elemental.jpg?1588753883"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/DnugT25.png",
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"R"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"paralyzed"
+			]
+		}
+	]
+}
