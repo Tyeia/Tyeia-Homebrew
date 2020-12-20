@@ -415,67 +415,13 @@
 				"spellcastingAbility": "int",
 				"casterProgression": "1/2",
 					"subclassFeatures": [
-						[
-							{
-								"name": "Way of the Closed Fist",
-								"entries": [
-									"These are Muscle Wizards who take the art of punching things to the extreme, they focus more on their physical strength rather than their spellcasting.",
-									{
-										"type": "entries",
-										"name": "Brutish Resolve",
-										"entries": [
-											"When you choose this archetype at 3rd level you gain advantage to Strength Saving throws."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Consecutive Punches",
-										"entries":[
-											"At 7th level you can use an action to expend a spell slot to perform unarmed attacks equal to the spell level spent. Expending slots above level 1 grants an additional extra attack (e.g. +2 attacks Level 2; +3 attacks Level 3; etc.)"
-											]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Martial Prowess",
-										"entries":[
-											"At 13th level you have trained your body so hard that you gain one of the following effects of your choice:",
-											"1. You gain a Poison resist and advantage on Con saves against poison.",
-											"2. You gain Proficiency in two Dexterity skills of your choice.",
-											"3. You gain Proficiency in either Dex or Con Saving throws.",
-											"4. You gain Proficiency in Martial Melee weapons."
-											]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Barbaric Fist",
-										"entries": [
-											"At 15th level your Brutal Fist damage is the dice of the highest tier (2d8), and at 20th level the damage equals 2d10."
-										]
-									}
-								]
-							}
-						]
+						"Way of The Closed Fist|Muscle Wizard(Revised)|Tyeia|Way of the Closed Fist|Tyeia|3|Tyeia",
+						"Consecutive Punches|Muscle Wizard(Revised)|Tyeia|Way of the Closed Fist|Tyeia|7|Tyeia",
+						"Martial Prowess|Muscle Wizard(Revised)|Tyeia|Way of the Closed Fist|Tyeia|13|Tyeia",
+						"Barbaric Fist|Muscle Wizard(Revised)|Tyeia|Way of the Closed Fist|Tyeia|15|Tyeia"
 					],
 					"source": "Tyeia",
-					"shortName": "Way of the Closed Fist"
+					"shortName": "ClosedFist"
 				},
 				{
 					"name": "Way of the Open Mind",
@@ -873,100 +819,13 @@
 					"spellcastingAbility": "int",
 					"casterProgression": "1",
 					"subclassFeatures": [
-						[
-							{	
-								"name": "Way of the Open Mind",
-								"entries" : [
-									"These Muscle Wizard are more magic based, using a wider range of spells and living up to their Muscle Wizard name.",
-									{
-										"type": "entries",
-										"name": "Intellectual Resolve",
-										"entries": [
-											"When you take this archetype at 3rd level you gain advantage to Intelligence Saving throws."
-										]
-									}
-									]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Improved Spellcasting",
-										"entries": [
-											"At 7th level you manage to expand your range of spells, you can now access all Wizard spells. You also gain another cantrip"
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Tactical Prowess",
-										"entries": [
-											"At 13th level you have trained your mind so hard that you gain one of the following effects of your choice:",
-											"1. You gain resistance to psychic damage.",
-											"2. You gain resistance to being charmed.",
-											"3. You gain Proficiency in either Wis or Cha Saving throws.",
-											"4. You gain Proficiency in Two tools of your choice."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Psychic Fist",
-										"entries": [
-											"At 15th level you gain the option to project your punches a distance at the cost of damage.",
-											"When you attack using Psychic Fist, your Brutal Fist damage is the dice of the tier two below (1d4), but your Brutal fist now can be cast at a range of 40 ft.",
-											{
-												"type": "entries",
-												"name": "Psychic Fist Damage",
-												"entries": [
-													{
-														"type": "table",
-														"caption": "Psychic Fist Damage",
-														"colLabels": [
-															"Level",
-															"Damage"										
-														],
-														"colStyles": [
-															"col-xs-1 text-align-center",
-															"col-xs-2 text-align-center"
-														],
-														"rows": [
-															[
-																"15th",
-																"1d4"
-															],
-															[
-																"17th",
-																"1d6"
-															],
-															[
-																"20th",
-																"2d4"
-															]
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							}
-						]				
+						"Way of the Open Mind|Muscle Wizard(Revised)|Tyeia|Way of the Open Mind|Tyeia|3|Tyeia",
+						"Improved Spellcasting|Muscle Wizard(Revised)|Tyeia|Way of the Open Mind|Tyeia|7|Tyeia",
+						"Tactical Prowess|Muscle Wizard(Revised)|Tyeia|Way of the Open Mind|Tyeia|13|Tyeia",
+						"Psychic Fist|Muscle Wizard(Revised)|Tyeia|Way of the Open Mind|Tyeia|15|Tyeia"			
 					],
 					"source": "Tyeia",
-					"shortName": "Way of the Open Mind"
+					"shortName": "OpenMind"
 				}
 			]
 		}
@@ -1338,6 +1197,195 @@
 				"-The shear force and speed of the impact causes an explosion in a 40 ft radius. All targets, including yourself, must succeed on a Con save against your DC or take 2d6 Fire and 2d10 Force damage, and be stunned. On a success, they don't take the force damage and aren't stunned.",
 				"-The ground cracks and debris is scattered around in a 25 ft radius from the shockwave. All targets in the area, aside from yourself, must make a Dex or Con save against your Spell DC or take 3d4 Piercing damage. On a success they take half as much.",
 				"You can only perform this attack if you have no exhaustion levels. All damage is considered magical to overcome non-magical resistance and immunities, and ignores magical resistance as well as treats magical immunity as resistance. All resulting effects of the initial punch treat immunity to their respective damage as resistance due to the shear force and intensity of the attack."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Way of the Closed Fist",
+			"source":"Tyeia",
+			"className":"Muscle Wizard(Revised)",
+			"classSource":"Tyeia",
+			"subclassShortName":"ClosedFist",
+			"subclassSource":"Tyeia",
+			"level":3,
+			"entries": [
+				"These are Muscle Wizards who take the art of punching things to the extreme, they focus more on their physical strength rather than their spellcasting.",
+				{
+					"type": "entries",
+					"name": "Brutish Resolve",
+					"entries": [
+						"When you choose this archetype at 3rd level you gain advantage to Strength Saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Consecutive Punches",
+			"source":"Tyeia",
+			"className":"Muscle Wizard(Revised)",
+			"classSource":"Tyeia",
+			"subclassShortName":"ClosedFist",
+			"subclassSource":"Tyeia",
+			"level":7,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Consecutive Punches",
+					"entries":[
+						"At 7th level you can use an action to expend a spell slot to perform unarmed attacks equal to the spell level spent. Expending slots above level 1 grants an additional extra attack (e.g. +2 attacks Level 2; +3 attacks Level 3; etc.)"
+						]
+				}
+			]
+		},
+		{
+			"name": "Martial Prowess",	
+			"source":"Tyeia",
+			"className":"Muscle Wizard(Revised)",
+			"classSource":"Tyeia",
+			"subclassShortName":"ClosedFist",
+			"subclassSource":"Tyeia",
+			"level":13,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Martial Prowess",
+					"entries":[
+						"At 13th level you have trained your body so hard that you gain one of the following effects of your choice:",
+						"1. You gain a Poison resist and advantage on Con saves against poison.",
+						"2. You gain Proficiency in two Dexterity skills of your choice.",
+						"3. You gain Proficiency in either Dex or Con Saving throws.",
+						"4. You gain Proficiency in Martial Melee weapons."
+						]
+				}
+			]
+		},
+		{	
+			"name": "Barbaric Fist",
+			"source":"Tyeia",
+			"className":"Muscle Wizard(Revised)",
+			"classSource":"Tyeia",
+			"subclassShortName":"ClosedFist",
+			"subclassSource":"Tyeia",
+			"level":15,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Barbaric Fist",
+					"entries": [
+						"At 15th level your Brutal Fist damage is the dice of the highest tier (2d8), and at 20th level the damage equals 2d10."
+					]
+				}
+			]
+		},
+		{	
+			"name": "Way of the Open Mind",
+			"source":"Tyeia",
+			"className":"Muscle Wizard(Revised)",
+			"classSource":"Tyeia",
+			"subclassShortName":"OpenMind",
+			"subclassSource":"Tyeia",
+			"level":3,
+			"entries" : [
+				"These Muscle Wizard are more magic based, using a wider range of spells and living up to their Muscle Wizard name.",
+				{
+					"type": "entries",
+					"name": "Intellectual Resolve",
+					"entries": [
+						"When you take this archetype at 3rd level you gain advantage to Intelligence Saving throws."
+					]
+				}
+				]
+		},
+		{
+			"name": "Improved Spellcasting",
+			"source":"Tyeia",
+			"className":"Muscle Wizard(Revised)",
+			"classSource":"Tyeia",
+			"subclassShortName":"OpenMind",
+			"subclassSource":"Tyeia",
+			"level":7,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Improved Spellcasting",
+					"entries": [
+						"At 7th level you manage to expand your range of spells, you can now access all Wizard spells. You also gain another cantrip"
+					]
+				}
+			]
+		},
+		{
+			"name": "Tactical Prowess",
+			"source":"Tyeia",
+			"className":"Muscle Wizard(Revised)",
+			"classSource":"Tyeia",
+			"subclassShortName":"OpenMind",
+			"subclassSource":"Tyeia",
+			"level":13,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tactical Prowess",
+					"entries": [
+						"At 13th level you have trained your mind so hard that you gain one of the following effects of your choice:",
+						"1. You gain resistance to psychic damage.",
+						"2. You gain resistance to being charmed.",
+						"3. You gain Proficiency in either Wis or Cha Saving throws.",
+						"4. You gain Proficiency in Two tools of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Fist",
+			"source":"Tyeia",
+			"className":"Muscle Wizard(Revised)",
+			"classSource":"Tyeia",
+			"subclassShortName":"OpenMind",
+			"subclassSource":"Tyeia",
+			"level":15,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Psychic Fist",
+					"entries": [
+						"At 15th level you gain the option to project your punches a distance at the cost of damage.",
+						"When you attack using Psychic Fist, your Brutal Fist damage is the dice of the tier two below (1d4), but your Brutal fist now can be cast at a range of 40 ft.",
+						{
+							"type": "entries",
+							"name": "Psychic Fist Damage",
+							"entries": [
+								{
+									"type": "table",
+									"caption": "Psychic Fist Damage",
+									"colLabels": [
+										"Level",
+										"Damage"										
+									],
+									"colStyles": [
+										"col-xs-1 text-align-center",
+										"col-xs-2 text-align-center"
+									],
+									"rows": [
+										[
+											"15th",
+											"1d4"
+										],
+										[
+											"17th",
+											"1d6"
+										],
+										[
+											"20th",
+											"2d4"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
 			]
 		}
 	]
