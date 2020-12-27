@@ -258,7 +258,7 @@
                         "Your voice can barely be heard from outside the armor"
                     ]
                 },
-                "- Level 15: Golem - You can use Sentry and Juggernaut together. When you do this, use the Iron Golem statblock with an AC of 22 and a CR of 3/4ths of your level for the armor instead of the Warforged Soldier statblock. This Iron Golem does not have Poison Breath. You can only use this ability once per week.",
+                "- Level 15: Golem - You can use Sentry and Juggernaut together. When you do this, use the Iron Golem statblock with an AC of 22 and a CR of 1/2th of your level for the armor instead of the Warforged Soldier statblock. This Iron Golem does not have Poison Breath. You can only use this ability once per week.",
                 "- Level 20: Fortress - You become invulnerable for 10 minutes, but while you are invulnerable in this way you are treated as if you were under the effects of {@spell Feeblemind|PHB}. You can only use this ability while wearing Sentinel."
             ]
         },
@@ -271,9 +271,9 @@
             "reqAttune": "by a nature magic user",
             "entries": [
                 "{@bold Relic} - This companion grows with you. Its magic bonus is equal to half of your proficiency bonus, rounded down. This magic bonus is added to its AC, all saves, attacks, and damage",
-                "{@bold Multipurpose} - Tenrou may transform into any land-dwelling Beast with a maximum CR of a quarter of your level. Its stats change to match.",
-                "{@bold Dutiful} - Tenrou cannot be killed. When it is reduced to 0HP, it goes dormant, entering a sleep-like state for 8 hours, and then is restored to full HP. You can move Tenrou in this state, but Tenrou cannot transform.",
-                "{@bold Heavenly Wolf} - As an action you may speak Tenrou's command word and it will transform into a Huge {@creature Dire Wolf} with a CR of half your level for 10 minutes. This ability restores at the dawn at the beginning of the next week."
+                "{@bold Multipurpose} - Tenrou may transform into any land-dwelling Beast with a maximum CR of a quarter of your level. Its stats change to match. Tenrou gets double the amount of hit die to calculate its health when transforming into any beast with less than 100hp. ",
+                "{@bold Dutiful} - Tenrou cannot be killed. When it is reduced to 0HP, it goes dormant, entering a sleep-like state for 8 hours, and then is restored to full HP. You can move Tenrou in this state, but Tenrou cannot transform. Tenrou also gains a proficiency bonus equal to your own.",
+                "{@bold Heavenly Wolf} - As a bonus action you may speak Tenrou's command word and it will transform into a Huge {@creature Dire Wolf} with a CR of half your level for 10 minutes. This ability restores at the dawn at the beginning of the next week."
             ]
         },
         {
