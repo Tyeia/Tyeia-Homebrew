@@ -86,7 +86,7 @@
 				{
 					"name": "Regenerating Aura",
 					"entries": [
-						"Any creature that starts its turn within 30 feet of the nightwalker must succeed on a {@dc 21} Constitution saving throw or heal 14 ({@damage 4d6}) health. A creature's hitpoint maximum is reduced by any amount over their maximum they would be healed until the next long rest. A creature dies if it's hitpoint maximum hits 0, the creature dies. Undead and constructs are immune to this aura."
+						"Any creature that starts its turn within 30 feet of the daystrider must succeed on a {@dc 21} Constitution saving throw or heal 14 ({@damage 4d6}) health. A creature's hitpoint maximum is reduced by any amount over their maximum they would be healed until the next long rest. A creature dies if it's hitpoint maximum hits 0, the creature dies. Undead and constructs are immune to this aura."
 					]
 				}
 			],
@@ -94,7 +94,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The nightwalker uses Energetic Focus twice, or it uses Energetic Focus and Finger of Life, if available."
+						"The daystrider uses Energetic Focus twice, or it uses Energetic Focus and Finger of Life, if available."
 					]
 				},
 				{
@@ -106,7 +106,7 @@
 				{
 					"name": "Finger of Life {@recharge}",
 					"entries": [
-						"The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 21} Wisdom saving throw or take 26 ({@damage 4d12}) radiant damage and become {@condition blinded} until the end of the nightwalker's next turn. While {@condition blinded} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."
+						"The daystrider points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 21} Wisdom saving throw or take 26 ({@damage 4d12}) radiant damage and become {@condition blinded} until the end of the daystrider's next turn. While {@condition blinded} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the daystrider's Finger of Life for the next 24 hours."
 					]
 				}
 			],
