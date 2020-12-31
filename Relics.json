@@ -132,10 +132,10 @@
                 "{@bold Blood Pact} - Attuning to Harbinger requires you to allow it to gorge on your blood. If you allow this, you will lose a number equal to your level in maxiumum HP and gain 1 less HP per level. This pact makes it so your attunement can only be broken if you willingly break attunement.",
                 "{@bold Blood Sense} - You are able to sense the location of any blood bearing creature within 60 feet.",
                 "{@bold Predator} - Harbinger has an amount of charges equal to your level. You may spend hit dice at any time to feed Harbinger to restore charges(roll the hit dice). You lose health equal to the amount rolled, and Harbinger gains charges equal to the amount rolled. You may use your charges to do the following:",
-                "- 1 charge: As a reaction: Reroll any of your attack or damage rolls you made with Harbinger. You must keep the new result.",
-                "- 5 charges: When making an attack with Harbinger: If your attack hits, you will heal the damage dealt to the enemy. You must choose to use this before you roll for your attack.",
-                "- 10 charges: When making an attack action with Harbinger, you may teleport up to 30 feet to a blood-bearing target. You may only do this before the first attack if you have the Extra Attack feature.",
-                "- 20 charges: You let Harbinger consume more of your blood for a time to improve its power. Your hit point maximum is halved, but you roll an extra set of damage die for damage when using Harbinger. These effects last for 1 minute, after which, your hit point maximum is returned to its usual value."
+                "- 1 charge: Hunger: As a reaction: Reroll any of your attack or damage rolls you made with Harbinger. You must keep the new result.",
+                "- 5 charges: Consume:  When making an attack with Harbinger: If your attack hits, you will heal the damage dealt to the enemy. You must choose to use this before you roll for your attack.",
+                "- 10 charges: Blood Hunt:  When making an attack action with Harbinger, you may teleport up to 30 feet to a blood-bearing target. You may only do this before the first attack if you have the Extra Attack feature.",
+                "- 20 charges: Feast:  As a bonus action, you let Harbinger consume more of your blood for a time to improve its power. Your hit point maximum is halved, but you roll an extra set of damage die for damage when using Harbinger. These effects last for 1 minute, after which, your hit point maximum is returned to its usual value."
             ]
         },
         {
@@ -286,6 +286,11 @@
                 "S",
                 "B"
             ],
+            "property":[
+                "F",
+                "L",
+                "T"  
+            ],
             "wondrous": true,
             "rarity": "Artifact",
             "source": "Tyeia",
@@ -296,10 +301,10 @@
                 "{@bold Bonded Blade} - Should you throw either end of Valkyrija, you can return it to your hand as a free action. You must be holding one end of Valkyrija to use this feature. You may also use Valkyrija to traverse terrain, either by swinging or climbing.",
                 "{@bold Soul Eater} - Valkyrija consumes the souls of its foes. It restores used charges equal to the CR or level of the enemy killed, consuming its soul.",
                 "{@bold Soul Chains} - Valkyrija has 25 charges. You may use these charges to do the following:",
-                "- 1 charge: You may add +1 to any attack roll or damage roll",
-                "- 5 charges: Your melee attacks have a range of 15 feet for 1 minute",
-                "- 10 charges: Restrain an enemy within 10 feet with Valkyrija's chains as an action. This may be considered an attack for the Extra Attack feature",
-                "- 20 charges: The weight end of the sickle transforms into another sickle as soul energy wraps around you. For the next minute, Valkyrija can only deal slashing damage, your melee attacks have a range of 10ft, and you may perform an extra attack using your bonus action."
+                "- 1 charge: Fated Death: You may add +1 to any attack roll or damage roll",
+                "- 5 charges: No Escape: Your melee attacks have a range of 15 feet for 1 minute",
+                "- 10 charges: Chains of Lost Souls: Restrain an enemy within 10 feet with Valkyrija's chains as an action. This may be considered an attack for the Extra Attack feature",
+                "- 20 charges: Harvest: As a bonus action, you invoke the power of Valkyrija. The weight end of the sickle transforms into another sickle as soul energy wraps around you. For the next minute, Valkyrija can only deal slashing damage, your melee attacks have a range of 10ft, and you may perform an extra attack when attacking with your action."
             ]
         }
     ]

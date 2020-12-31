@@ -1,0 +1,247 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tyeia",
+				"abbreviation": "TMW",
+				"full": "Tyeia's Homebrew",
+				"authors": [
+					"Tyeia"
+				],
+				"version": "1.0",
+				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1609141312,
+		"dateLastModified": 1609141312
+	},
+	"monster": [
+		{
+			"name": "Accursed Banshee",
+			"source": "Tyeia",
+			"page": 23,
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 16,
+			"con": 18,
+			"int": 12,
+			"wis": 11,
+			"cha": 17,
+			"save": {
+				"wis": "+6",
+				"cha": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning",
+				"thunder",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Detect Life",
+					"entries": [
+						"The banshee can magically sense the presence of living creatures up to 5 miles away that aren't undead or constructs. She knows the general direction they're in but not their exact locations."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The banshee can move through other creatures and objects as if they were difficult terrain. She takes 16 ({@damage 3d10}) force damage if she ends her turn inside an object."
+					]
+				},
+				{
+					"name": "Turn Immunity",
+					"entries": [
+						"The banshee is immune to effects that turn undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The banshee makes two Corrupting Touch attacks"
+					]
+				},
+				{
+					"name": "Corrupting Touch",
+					"entries": [
+						"{@atk ms} {@hit 7} to hit, reach 5 ft., one target. {@h}37 ({@damage 10d6 + 2}) necrotic damage.",
+						"Alternative - DC17 Constitution Save, On a failure, 37",
+						"({@damage 10d6 + 2}) necrotic damage"
+					]
+				},
+				{
+					"name": "Horrifying Visage",
+					"entries": [
+						"Each non-undead creature within 60 feet of the banshee that can see her must succeed on a {@dc 17} Wisdom saving throw or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Horrifying Visage for the next 24 hours."
+					]
+				},
+				{
+					"name": "Wail {@recharge}",
+					"entries": [
+						"The banshee releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a {@dc 17} Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 31 ({@damage 9d6}) psychic damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"forest"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/banshee.mp3?v=1.118.0"
+			},
+			"traitTags": [
+				"Incorporeal Movement",
+				"Turn Immunity"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"N",
+				"Y",
+				"O"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Banshee.png?v=1.118.0",
+			"fluff": {
+				"name": "Banshee",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"When night falls, unlucky travelers hear the faint cries of the forlorn dead. This woeful spirit is a banshee, a spiteful creature formed from the spirit of a female elf. Banshees appear as luminous, wispy forms that vaguely recall their mortal features. A banshee's face is wreathed in a wild tangle of hair, its body clad in wispy rags that flutter and stream around it.",
+									{
+										"name": "Divine Wrath",
+										"type": "entries",
+										"entries": [
+											"Banshees are the undead remnants of elves who, blessed with great beauty, failed to use their gift to bring joy to the world. Instead, they used their beauty to corrupt and control others. Elves afflicted by the banshee's curse experience no gladness, feeling only distress in the presence of the living. As the curse takes its toll, their minds and bodies decay, until death completes their transformation into undead monsters."
+										]
+									},
+									{
+										"name": "Sorrow Bound",
+										"type": "entries",
+										"entries": [
+											"A banshee becomes forever bound to the place of its demise, unable to venture more than five miles from there. It is forced to relive every moment of its life with perfect recall, yet always refuses to accept responsibility for its doom."
+										]
+									},
+									{
+										"name": "Beauty Hoarders",
+										"type": "entries",
+										"entries": [
+											"The vanity that inspired the banshee's cursed creation persists in undeath. These creatures covet beautiful objects: fine jewelery, paintings, statues, and other objects of art. At the same time, a banshee abhors any mirrored surface, for it can't bear to see the horror of its own existence. A single glimpse of itself is enough to send a banshee into a rage."
+										]
+									},
+									{
+										"name": "Undead Nature",
+										"type": "entries",
+										"entries": [
+											"A banshee doesn't require air, food, drink, or sleep."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Banshee.jpg"
+						}
+					}
+				]
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"legendary": [
+				{
+					"name": "Corrupting Touch",
+					"entries": [
+						"The banshee makes a single Corrupting Touch Attack"
+					]
+				},
+				{
+					"name": "Invoke Fear",
+					"entries": [
+						"The banshee targets a single creature and projects a phantasmal nightmare of that creatures own death upon them. Target must make a {@dc 17} Wisdom saving throw or become {@condition frightened} for 1 minute. The target must only use the dash action to move away from the Banshee queen on its turn and once out of line of sight may attempt to make the saving throw again. On a success, the effect ends."
+					]
+				}
+			]
+		}
+	]
+}
