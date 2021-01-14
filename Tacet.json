@@ -1,0 +1,198 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tyeia",
+				"abbreviation": "TMW",
+				"full": "Tyeia's Homebrew",
+				"authors": [
+					"Tyeia",
+					"Toastghost"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/Tyeia/Tyeia-Homebrew",
+				"targetSchema": "1.2.3"
+			}
+		],
+		"dateAdded": 1610002634,
+		"dateLastModified": 1610002634
+	},
+	"monster": [
+		{
+			"name": "Tacet",
+			"size": "M",
+			"type": "monstrosity",
+			"source": "Tyeia",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "33d8 + 99",
+				"average": 250
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 11,
+			"dex": 20,
+			"con": 16,
+			"int": 8,
+			"wis": 14,
+			"cha": 20,
+			"passive": 18,
+			"cr": "17",
+			"languages": [
+				"Understands Common but can't speak"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"save": {
+				"dex": "+11",
+				"cha": "+11"
+			},
+			"skill": {
+				"perception": "+8",
+				"deception": "+11",
+				"performance": "+11",
+				"stealth": "+11",
+				"acrobatics": "+11"
+			},
+			"trait": [
+				{
+					"name": "Aura of Silence",
+					"entries": [
+						"Any creature that the tacet can see cannot make noise or perform the verbal components for spells. Additionally, the tacet does not have to perform the verbal components of her spells."
+					]
+				},
+				{
+					"name": "Umbrella",
+					"entries": [
+						"The tacet is immune to fall damage."
+					]
+				},
+				{
+					"name": "Grimm Sense",
+					"entries": [
+						"The tacet knows the exact location of any other creature that is {@condition frightened} within 60 ft."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/day)",
+					"entries": [
+						"If the tacet fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the tacet can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the tacet is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the the tacet instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tacet makes up to three weapon attacks."
+					]
+				},
+				{
+					"name": "Hush",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8}) piercing damage. If the tacet had advantage: 37 ({@damage 2d8 + 7d6}) piercing damage On a hit, the next attack the target makes at the tacet has disadvantage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The tacet makes one weapon attack."
+					]
+				},
+				{
+					"name": "Howl",
+					"entries": [
+						"One creature of the tacet's choice that is within 120 feet of the tacet and can hear it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for l minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the tacet's Howl for the next 24 hours."
+					]
+				},
+				{
+					"name": "Spell",
+					"entries": [
+						"The tacet casts an At Will Spell"
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://preview.redd.it/4cfd3k9c86x41.jpg?width=640&crop=smart&auto=webp&s=a9772763a8e9f7b1eb52767a17a0d9ad4d6e0bed"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/ooqNQS7.png",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The tacet's spellcasting ability is Charisma (spell save 19, spellcasting modifier +11). It can innately cast the following spells, requiring no material components."
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell major image}",
+						"{@spell mislead}",
+						"{@spell silent image}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell phantasmal killer}",
+							"{@spell weird}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"shortName": true
+		}
+	]
+}
