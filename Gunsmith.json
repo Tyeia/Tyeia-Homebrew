@@ -1,403 +1,421 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "Gunsmith",
-				"abbreviation": "KIB",
-				"full": "Gunsmith (Thundersmith)",
-				"authors": [
-					"/u/KibblesTasty"
-				],
-				"convertedBy": [
-					"Giddy",
-					"Ikaguia"
-				],
-				"version": "2.0.1",
-				"url": "https://www.gmbinder.com/share/-LAEn6ZdC6lYUKhQ67Qk",
-				"targetSchema": "1.0.0"
-			}
-		]
+  "_meta": {
+    "sources": [
+      {
+        "json": "Tyeia",
+        "abbreviation": "TMW",
+        "full": "Tyeia's Homebrew",
+        "authors": [
+          "Tyeia"
+        ],
+        "version": "3.0.0",
+        "url": "https://github.com/Tyeia/Tyeia-Homebrew",
+        "targetSchema": "1.1.0"
+      }
+    ]
+  },
+  "subclass": [
+    {
+      "name": "Gunsmith",
+      "class": "Artificer",
+      "classSource": "TCE",
+      "shortName": "Gunsmith",
+      "source": "Tyeia",
+      "subclassFeatures": [
+        "Gunsmith|Artificer|TCE|Gunsmith|Tyeia|3|Tyeia",
+        "Thundermonger|Artificer|TCE|Gunsmith|Tyeia|5|Tyeia",
+        "Devastating Blasts|Artificer|TCE|Gunsmith|Tyeia|9|Tyeia",
+        "Elemental Swapping|Artificer|TCE|Gunsmith|Tyeia|15|Tyeia"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Gunsmith",
+      "source": "Tyeia",
+      "page": 1,
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Gunsmith",
+      "subclassSource": "Tyeia",
+      "level": 3,
+      "entries": [
+        "A Gunsmith is an Artificer who has crafted a spectacular and terrible device. A Thunder Cannon.",
+        "A weapon of unmatched destruction, an Artificer's reason for forging such a thing is varied. Some seek the power, some seek the discovery.",
+        "For some it is but a tool to accomplish their goal, for others it is the culmination of the work, for which all the pesky details of adventuring are dedicated to.",
+        "Given the destructive potential of a Thunder Cannon, many monsters and men may seek to seize the power for themselves upon witnessing its potential, but even if were to succeed they would soon find that using one of these deadly tools is an art of equal mastery to forging one, something only the one who forged the device will ever truly master, for each Thunder Cannon is unique work, suited only to its creator.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Thunder Cannon|Artificer|TCE|Gunsmith|Tyeia|3|Tyeia"
+        }
+      ]
     },
-	"subclass": [
-		{
-            "class": "Artificer",
-            "classSource": "ERLW",
-			"name": "Gunsmith",
-			"source": "Gunsmith",
-			"shortName": "Gunsmith",
-			"subclassFeatures": [
-                [
-                    {
-                        "name": "Thundersmith",
-                        "entries": [
-                            "A Thundersmith is an Artificer who has crafted a spectacular and terrible device. A Thunder Cannon.",
-                            "A weapon of unmatched destruction, an Artificer's reason for forging such a thing is varied. Some seek the power, some seek the discovery.",
-                            "For some it is but a tool to accomplish their goal, for others it is the culmination of the work, for which all the pesky details of adventuring are dedicated to.",
-                            "Given the destructive potential of a Thunder Cannon, many monsters and men may seek to seize the power for themselves upon witnessing its potential, but even if were to succeed they would soon find that using one of these deadly tools is an art of equal mastery to forging one, something only the one who forged the device will ever truly master, for each Thunder Cannon is unique work, suited only to its creator.",
-                            {
-                                "type": "entries",
-                                "name": "Thunder Cannon",
-                                "entries": [
-                                    "At 3rd level, you forge a deadly firearm using a combination of arcane magic and your knowledge of engineering and metallurgy. This firearm is called a Thunder Cannon.",
-                                    "You are proficient with the Thunder Cannon. The firearm is a two-handed ranged weapon that deals {@dice 2d6} piercing damage. Its normal range is 60 feet, and its maximum range is 180 feet.",
-                                    "Once fired, it must be reloaded as a bonus action.",
-                                    {
-                                        "type": "inset",
-                                        "name": "Thunder Cannon",
-                                        "entries": [
-                                            "{@i Wondrous Item, Magical Firearm, Attunement (creator only)}",
-                                            "{@b Damage} 2d6 piercing",
-                                            "{@b Reload} 1",
-                                            "{@b Weight} 15 lb.",
-                                            "{@b Properties} Two-handed, Loud, Reload(1)",
-                                            "{@b Range} 60/180"
-                                        ]
-                                    },
-                                    "If you lose your Thunder Cannon, you can create a new one over the course of three days of work (eight hours each day) by expending 200 gp worth of metal and other raw materials.",
-                                    "You can create multiple Thunder Cannons, but you can only be attuned to one of them at a given time, and can only change which one you are attuned to during a long rest. If you create a new Thunder Cannon, you can apply a number of Upgrades equal to the value on the class table, applying each at the level you get it on the class table.",
-                                    {
-                                        "name": "Loud",
-                                        "type": "entries",
-                                        "entries": [
-                                            "Your weapon rings with thunder that is audible within 300 feet of you whenever it makes an attack."
-                                        ]
-                                    },
-                                    "Some Artificers may create variant weapons beyond the traditional Thunder Cannon, in which case the stats of that weapon are used.",
-                                    {
-                                        "type": "inset",
-                                        "name": "Variant Weapon Types",
-                                        "entries": [
-                                            "Your DM may allow you to select on the following Varients for your Thunder Cannon. These do not cost a normal upgrade slot, and do not count against your total upgrades.",
-                                            {
-                                                "type": "entries",
-                                                "name": "Hand Cannon",
-                                                "entries": [
-                                                    "You modify your Thunder Cannon with lightweight components and a shorter barrel. Its weight becomes 7 lbs. Your Thunder Cannon becomes a one handed ranged weapon. It deals {@dice 1d8} damage piercing damage (instead of 2d6) and its normal range becomes 20 feet and its maximum range 60 feet."
-                                                ]
-                                            },
-                                            {
-                                                "type": "entries",
-                                                "name": "Lightning Sword",
-                                                "entries": [
-                                                    "You entirely remodel your weapon a melee weapon. This can take the form of any martial melee weapon, and you have proficiency with this weapon regardless of its shape. When you apply Thundermonger damage with this weapon, it deals lightning damage instead of Thunder Damage. Apply common sense in what upgrades this eliminates as options."
-                                                ]
-                                            },
-                                            {
-                                                "type": "entries",
-                                                "name": "Arm Cannon?",
-                                                "entries": [
-                                                    "Perhaps most plausible for a Warforged Thundersmith, consult with your DM on replacing a lost or removed arm with your Thunder Cannon if you feel the need to never be parted from it. In this configuration, it retains the normal statistics, but becomes a one-handed weapon. As cost, you lose the use of that arm for anything else, and the use of the arm can only be recovered by removing the Thunder Cannon and the effect of {@spell Regenerate} or similar magic."
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            {
-                                "name": "Thundermonger",
-                                "entries": [
-                                    "At 5th level, you've developed the arcane engineering skill to upgrade your Thundercannon to deliver its shots with greater force.",
-                                    "Once per turn, you can deal an extra {@dice 2d6} thunder damage to one creature you hit with an Attack using Thunder Cannon. After discharging this bonus damage, the you cannot deal this bonus damage again until the start of your next turn.",
-                                    "This extra damage increases by 1d6 when you reach certain levels in this class: 7th level ({@dice 3d6}), 9th level ({@dice 4d6}), 11th level ({@dice 5d6}), 13th level ({@dice 6d6}), 15th level ({@dice 7d6}), 17th level ({@dice 8d6}), and 19th level ({@dice 9d6)."
-                                ]
-                            },
-                            {
-                                "type": "inset",
-                                "name": "Firearms In a Campaign Setting",
-                                "entries": [
-                                    "A lot of campaign settings do not feature firearms, and in some of these the Thundersmith variant of Artificer might not be the right choice, but consider that the Artificer is fundamentally someone that tinkers and explores magic as much as technology. A Thunder Cannon need not be a gunpowder powered device, and in most cases is more an engineering marvel of magic than technology.",
-                                    "Inversely, in a setting where firearms are more widespread and magic is more limited, feel free to move the slider the other direction."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            {
-                                "name": "Devastating Blasts",
-                                "entries": [
-                                    "Beginning at 9th level, when you miss an attack with your Thunder Cannon, the target still takes half of the bonus damage from Thundermonger."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "type": "entries",
-                        "entries": [
-                            {
-                                "name": "Elemental Swapping",
-                                "entries": [
-                                    "Starting at the 15th level, when you take the attack action with your Thunder Cannon you can adjust the firing chamber, causing any bonus damage granted by Thundermonger to deal Fire, Cold, Acid, or Lightning damage instead of Thunder damage. Alternatively, you can consume a {@item Holy Water (flask)|phb|Vial of Holy Water} to cause your next Thundermonger bonus damage to deal Radiant Damage.",
-                                    "You can use this feature a number of times equal to your Intelligence Modifier, regaining all uses on a long rest."
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            ]
-		}
-    ],
-    "optionalfeature": [
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Blast Shells",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 15,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You can choose to fire a blast shell when firing your Thunder Cannon. When firing a Blast Shell, pick a target area within normal range of your Thunder Cannon. Make an attack roll as normal, and apply that attack roll to all targets within a 5 foot radius of your target point.",
-				"You can apply Thundermonger damage to one target creature hit, or apply half of Thundermonger damage to all creatures hit."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Divination Scope",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You add a scope to your Thunder Cannon and enchant the lenses with Divination magic. The Scope has 3 Charges. As a bonus action you can use 1 charge to cast Hunter's Mark. As an action you can use 2 charges to cast See Invisibility or 3 charges to cast Clairvoyance.",
-				"The scope regains all charges after a long rest."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Echoing Boom",
-			"entries": [
-				"You pack extra power into your Thundermonger, increasing the damage it deals by {@dice 1d6}."
-			],
-			"prerequisite": [
-				{
-					"feature": [
-						"Incompatible with Silencer"
-					]
-				}
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Extended Barrel",
-			"entries": [
-				"You extend the length of your Thunder Cannon's barrel and add rifling. The normal weapon range of your Thunder Cannon increases by 30 feet, and the maximum range by 90 feet. You can apply this upgrade up to 2 times.",
-				"After applying this twice, if you have the Lightning Charged Bayonet upgrade, the Bayonet gains the Reach property."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Harpoon Reel",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You install a secondary firemode that launches a Harpoon attached to a tightly coiled cord. This attack has a normal range of 30 feet and an maximum range of 60 feet, and it deals only {@dice 1d6} piecing damage. This attack can target a surface, object, or creature.",
-				"A creature struck by this attack is impaled by the Harpoon unless it removes the Harpoon as an action, which causes it to take an additional {@dice 1d6} damage. While the Harpoon is stuck in the target, you are connected to the target by an 60 ft. cord.",
-				"While connected in this manner, you can use your bonus action to activate the Reel action, pulling yourself to the location if the target if the target is Medium or larger. A Small or smaller creature is pulled back to you. Alternatively, you can opt to disconnect the cord.",
-				"This attack cannot be used again until the Reel action is taken."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Lightning Burst",
-			"entries": [
-				"You upgrade your Thunder Cannon to discharge its power in within a 5-feet wide and 60-feet long line. As an action, you can make a special attack. Each creature must make a Dexterity saving throw or take damage equal to the bonus damage of Thundermonger as lightning damage on a failed save, half as much on a successful save. Using this shot counts as applying Thundermonger damage for the turn.",
-				"Firing in this method does not consume ammo."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Lightning Charged Bayonet",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You affix a short blade to the barrel of your Thunder Cannon, allowing you to make a melee weapon attack with it. The blade is a finesse weapon melee weapon that you are proficient with, and deals {@dice 1d6} Piercing damage.",
-				"The blade can be used to apply Thundermonger bonus damage. When Thundermonger bonus damage is dealt with a bayonet attack, the damage type is lightning. Dealing damage this way counts as applying Thundermonger damage for the turn."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Overchannel Capacitor",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You gain the ability to channel your magical power into the Thunder Cannon to overload its damage. You can expend a spell slot to increase the damage dealt by Thundermonger by {@dice 1d8} per spell level spent."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Silencer",
-			"entries": [
-				"You upgrade your Thunder Cannon with a sound dampening module. Your Thunder Cannon loses the Loud property."
-			],
-			"prerequisite": [
-				{
-					"feature": [
-						"Incompatible with Echoing Booms"
-					]
-				}
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Snap Fire",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 9,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You upgrade your Thunder Cannon for quick shots. You can use your reaction to take a opportunity attack with your Thunder Cannon if an enemy comes within 10 ft. of you. You have disadvantage on this attack. This attack only deals Thundermonger bonus damage if you have not dealt the bonus damage since the start of your last turn."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Shock Absorber",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 9,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You add a reclamation device to your Thunder Cannon to gather energy from the surroundings when it is present. As a reaction to taking Lightning or Thunder Damage, you can cast {@spell absorb elements|xge} without consuming a spell slot. When absorbed in this method, you can apply the bonus damage granted by {@spell absorb elements|xge} to your next Thunder Cannon attack even if you make a ranged attack."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Shock Harpoon",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 9,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					},
-					"feature": [
-						"Harpoon Reel"
-					]
-				}
-			],
-			"entries": [
-				"After hitting a creature with the Harpoon fire mode, you can use a bonus action to deliver a shock. If you have not used it since the start of your turn, you can apply Thundermonger damage as lightning damage. Additionally, the target must make a Constitution saving throw against your spell save DC or be {@condition stunned} until the end of its next turn.",
-				"Once used, the Harpoon must be reeled in before this can be used again."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Storm Blast",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You upgrade your Thunder Cannon to discharge its power in 30-foot cone from the gun. As an action, you can make a special attack. Each creature must make a Strength saving throw, or take half the bonus damage of Thundermonger and be knocked {@condition prone}. Using this shot counts as applying Thundermonger damage for the turn.",
-				"Firing in this way does not consume ammo."
-			]
-		},
-		{
-			"source": "Gunsmith",
-			"featureType": "AI",
-			"name": "Synaptic Feedback",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 9,
-						"class": {
-							"name": "Artificer",
-							"source": "ERLW"
-						}
-					}
-				}
-			],
-			"entries": [
-				"You install feedback loop into your cannon, allowing you to siphon some energy from your Thunder Cannon to empower your reflexes. Whenever you deal lightning damage with your Thunder Cannon your walking speed increases by 10 ft. and you can take the Dash or Disengage actions as a bonus action. This boost lasts until the start of your next turn."
-			]
-		}
-	]
+    {
+      "name": "Thunder Cannon",
+      "source": "Tyeia",
+      "page": 1,
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Gunsmith",
+      "subclassSource": "Tyeia",
+      "header": 1,
+      "level": 3,
+      "entries": [
+        "At 3rd level, you forge a deadly firearm using a combination of arcane magic and your knowledge of engineering and metallurgy. This firearm is called a Thunder Cannon.",
+        "You are proficient with the Thunder Cannon. The firearm is a two-handed ranged weapon that deals {@dice 2d6} piercing damage. Its normal range is 60 feet, and its maximum range is 180 feet.",
+        "Once fired, it must be reloaded as a bonus action.",
+        {
+          "type": "inset",
+          "name": "Thunder Cannon",
+          "entries": [
+            "{@i Wondrous Item, Magical Firearm, Attunement (creator only)}",
+            "{@b Damage} 2d6 piercing",
+            "{@b Reload} 1",
+            "{@b Weight} 15 lb.",
+            "{@b Properties} Two-handed, Loud, Reload(1)",
+            "{@b Range} 60/180"
+          ]
+        },
+        "If you lose your Thunder Cannon, you can create a new one over the course of three days of work (eight hours each day) by expending 200 gp worth of metal and other raw materials.",
+        "You can create multiple Thunder Cannons, but you can only be attuned to one of them at a given time, and can only change which one you are attuned to during a long rest. If you create a new Thunder Cannon, you can apply a number of Upgrades equal to the value on the class table, applying each at the level you get it on the class table.",
+        {
+          "name": "Loud",
+          "type": "entries",
+          "entries": [
+            "Your weapon rings with thunder that is audible within 300 feet of you whenever it makes an attack."
+          ]
+        },
+        "Some Artificers may create variant weapons beyond the traditional Thunder Cannon, in which case the stats of that weapon are used.",
+        {
+          "type": "inset",
+          "name": "Variant Weapon Types",
+          "entries": [
+            "Your DM may allow you to select on the following Varients for your Thunder Cannon. These do not cost a normal upgrade slot, and do not count against your total upgrades.",
+            {
+              "type": "entries",
+              "name": "Hand Cannon",
+              "entries": [
+                "You modify your Thunder Cannon with lightweight components and a shorter barrel. Its weight becomes 7 lbs. Your Thunder Cannon becomes a one handed ranged weapon. It deals {@dice 1d8} damage piercing damage (instead of 2d6) and its normal range becomes 20 feet and its maximum range 60 feet."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Lightning Sword",
+              "entries": [
+                "You entirely remodel your weapon a melee weapon. This can take the form of any martial melee weapon, and you have proficiency with this weapon regardless of its shape. When you apply Thundermonger damage with this weapon, it deals lightning damage instead of Thunder Damage. Apply common sense in what upgrades this eliminates as options."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Arm Cannon?",
+              "entries": [
+                "Perhaps most plausible for a Warforged Gunsmith, consult with your DM on replacing a lost or removed arm with your Thunder Cannon if you feel the need to never be parted from it. In this configuration, it retains the normal statistics, but becomes a one-handed weapon. As cost, you lose the use of that arm for anything else, and the use of the arm can only be recovered by removing the Thunder Cannon and the effect of {@spell Regenerate} or similar magic."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thundermonger",
+      "source": "Tyeia",
+      "page": 1,
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Gunsmith",
+      "subclassSource": "Tyeia",
+      "level": 5,
+      "entries": [
+        "At 5th level, you've developed the arcane engineering skill to upgrade your Thundercannon to deliver its shots with greater force.",
+        "Once per turn, you can deal an extra {@dice 2d6} thunder damage to one creature you hit with an Attack using Thunder Cannon. After discharging this bonus damage, the you cannot deal this bonus damage again until the start of your next turn.",
+        "This extra damage increases by 1d6 when you reach certain levels in this class: 7th level ({@dice 3d6}), 9th level ({@dice 4d6}), 11th level ({@dice 5d6}), 13th level ({@dice 6d6}), 15th level ({@dice 7d6}), 17th level ({@dice 8d6}), and 19th level ({@dice 9d6).",
+        {
+          "type": "inset",
+          "name": "Firearms In a Campaign Setting",
+          "entries": [
+            "A lot of campaign settings do not feature firearms, and in some of these the Gunsmith variant of Artificer might not be the right choice, but consider that the Artificer is fundamentally someone that tinkers and explores magic as much as technology. A Thunder Cannon need not be a gunpowder powered device, and in most cases is more an engineering marvel of magic than technology.",
+            "Inversely, in a setting where firearms are more widespread and magic is more limited, feel free to move the slider the other direction."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Devastating Blasts",
+      "source": "Tyeia",
+      "page": 1,
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Gunsmith",
+      "subclassSource": "Tyeia",
+      "level": 9,
+      "entries": [
+        "Beginning at 9th level, when you miss an attack with your Thunder Cannon, the target still takes half of the bonus damage from Thundermonger."
+      ]
+    },
+    {
+      "name": "Elemental Swapping",
+      "source": "Tyeia",
+      "page": 1,
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Gunsmith",
+      "subclassSource": "Tyeia",
+      "level": 15,
+      "entries": [
+        "Starting at the 15th level, when you take the attack action with your Thunder Cannon you can adjust the firing chamber, causing any bonus damage granted by Thundermonger to deal Fire, Cold, Acid, or Lightning damage instead of Thunder damage. Alternatively, you can consume a {@item Holy Water (flask)|phb|Vial of Holy Water} to cause your next Thundermonger bonus damage to deal Radiant Damage.",
+        "You can use this feature a number of times equal to your Intelligence Modifier, regaining all uses on a long rest."
+      ]
+    }
+  ], 
+  "optionalfeature": [
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Blast Shells",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 15,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You can choose to fire a blast shell when firing your Thunder Cannon. When firing a Blast Shell, pick a target area within normal range of your Thunder Cannon. Make an attack roll as normal, and apply that attack roll to all targets within a 5 foot radius of your target point.",
+        "You can apply Thundermonger damage to one target creature hit, or apply half of Thundermonger damage to all creatures hit."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Divination Scope",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You add a scope to your Thunder Cannon and enchant the lenses with Divination magic. The Scope has 3 Charges. As a bonus action you can use 1 charge to cast Hunter's Mark. As an action you can use 2 charges to cast See Invisibility or 3 charges to cast Clairvoyance.",
+        "The scope regains all charges after a long rest."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Echoing Boom",
+      "entries": [
+        "You pack extra power into your Thundermonger, increasing the damage it deals by {@dice 1d6}."
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "Incompatible with Silencer"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Extended Barrel",
+      "entries": [
+        "You extend the length of your Thunder Cannon's barrel and add rifling. The normal weapon range of your Thunder Cannon increases by 30 feet, and the maximum range by 90 feet. You can apply this upgrade up to 2 times.",
+        "After applying this twice, if you have the Lightning Charged Bayonet upgrade, the Bayonet gains the Reach property."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Harpoon Reel",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You install a secondary firemode that launches a Harpoon attached to a tightly coiled cord. This attack has a normal range of 30 feet and an maximum range of 60 feet, and it deals only {@dice 1d6} piecing damage. This attack can target a surface, object, or creature.",
+        "A creature struck by this attack is impaled by the Harpoon unless it removes the Harpoon as an action, which causes it to take an additional {@dice 1d6} damage. While the Harpoon is stuck in the target, you are connected to the target by an 60 ft. cord.",
+        "While connected in this manner, you can use your bonus action to activate the Reel action, pulling yourself to the location if the target if the target is Medium or larger. A Small or smaller creature is pulled back to you. Alternatively, you can opt to disconnect the cord.",
+        "This attack cannot be used again until the Reel action is taken."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Lightning Burst",
+      "entries": [
+        "You upgrade your Thunder Cannon to discharge its power in within a 5-feet wide and 60-feet long line. As an action, you can make a special attack. Each creature must make a Dexterity saving throw or take damage equal to the bonus damage of Thundermonger as lightning damage on a failed save, half as much on a successful save. Using this shot counts as applying Thundermonger damage for the turn.",
+        "Firing in this method does not consume ammo."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Lightning Charged Bayonet",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You affix a short blade to the barrel of your Thunder Cannon, allowing you to make a melee weapon attack with it. The blade is a finesse weapon melee weapon that you are proficient with, and deals {@dice 1d6} Piercing damage.",
+        "The blade can be used to apply Thundermonger bonus damage. When Thundermonger bonus damage is dealt with a bayonet attack, the damage type is lightning. Dealing damage this way counts as applying Thundermonger damage for the turn."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Overchannel Capacitor",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You gain the ability to channel your magical power into the Thunder Cannon to overload its damage. You can expend a spell slot to increase the damage dealt by Thundermonger by {@dice 1d8} per spell level spent."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Silencer",
+      "entries": [
+        "You upgrade your Thunder Cannon with a sound dampening module. Your Thunder Cannon loses the Loud property."
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "Incompatible with Echoing Booms"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Snap Fire",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You upgrade your Thunder Cannon for quick shots. You can use your reaction to take a opportunity attack with your Thunder Cannon if an enemy comes within 10 ft. of you. You have disadvantage on this attack. This attack only deals Thundermonger bonus damage if you have not dealt the bonus damage since the start of your last turn."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Shock Absorber",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You add a reclamation device to your Thunder Cannon to gather energy from the surroundings when it is present. As a reaction to taking Lightning or Thunder Damage, you can cast {@spell absorb elements|xge} without consuming a spell slot. When absorbed in this method, you can apply the bonus damage granted by {@spell absorb elements|xge} to your next Thunder Cannon attack even if you make a ranged attack."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Shock Harpoon",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          },
+          "feature": [
+            "Harpoon Reel"
+          ]
+        }
+      ],
+      "entries": [
+        "After hitting a creature with the Harpoon fire mode, you can use a bonus action to deliver a shock. If you have not used it since the start of your turn, you can apply Thundermonger damage as lightning damage. Additionally, the target must make a Constitution saving throw against your spell save DC or be {@condition stunned} until the end of its next turn.",
+        "Once used, the Harpoon must be reeled in before this can be used again."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Storm Blast",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You upgrade your Thunder Cannon to discharge its power in 30-foot cone from the gun. As an action, you can make a special attack. Each creature must make a Strength saving throw, or take half the bonus damage of Thundermonger and be knocked {@condition prone}. Using this shot counts as applying Thundermonger damage for the turn.",
+        "Firing in this way does not consume ammo."
+      ]
+    },
+    {
+      "source": "Tyeia",
+      "featureType": "AI",
+      "name": "Synaptic Feedback",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          }
+        }
+      ],
+      "entries": [
+        "You install feedback loop into your cannon, allowing you to siphon some energy from your Thunder Cannon to empower your reflexes. Whenever you deal lightning damage with your Thunder Cannon your walking speed increases by 10 ft. and you can take the Dash or Disengage actions as a bonus action. This boost lasts until the start of your next turn."
+      ]
+    }
+  ]
 }
