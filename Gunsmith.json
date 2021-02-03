@@ -27,6 +27,32 @@
         "Cannon Modifications|Artificer|TCE|Gunsmith|Tyeia|9|Tyeia",
         "Devastating Blasts|Artificer|TCE|Gunsmith|Tyeia|9|Tyeia",
         "Elemental Swapping|Artificer|TCE|Gunsmith|Tyeia|15|Tyeia"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3":[
+              "chaos bolt|XGE",
+              "chromatic orb"
+            ],
+            "5":[
+              "aganazzar's scorcher|XGE",
+              "melf's acid arrow"
+            ],
+            "9":[
+              "lightning arrow",
+              "lightning bolt"
+            ],
+            "13":[
+              "elemental bane|XGE",
+              "ice storm"
+            ],
+            "17":[
+              "banishing smite",
+              "holy weapon|XGE"
+            ]
+          }
+        }
       ]
     }
   ],
@@ -48,6 +74,10 @@
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Thunder Cannon|Artificer|TCE|Gunsmith|Tyeia|3|Tyeia"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Gunsmith Spells|Artificer|TCE|Gunsmith|Tyeia|3|Tyeia"
         }
       ]
     },
@@ -119,6 +149,54 @@
       ]
     },
     {
+      "name": "Gunsmith Spells",
+      "source": "Tyeia",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Gunsmith",
+      "subclassSource": "Tyeia",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Gunsmith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+        {
+          "type": "table",
+          "caption": "Gunsmith Spells",
+          "colLabels": [
+            "Artificer Level",
+            "Spell"
+          ],
+          "colStyles": [
+            "col-2 text-center",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell chaos bolt|XGE}, {@spell chromatic orb}"
+            ],
+            [
+              "5th",
+              "{@spell aganazzar's scorcher|XGE}, {@spell melf's acid arrow}"
+            ],
+            [
+              "9th",
+              "{@spell lightning arrow}, {@spell lightning bolt}"
+            ],
+            [
+              "13th",
+              "{@spell elemental bane|XGE}, {@spell ice storm}"
+            ],
+            [
+              "17th",
+
+              "{@spell banishing smite}, {@spell holy weapon|XGE}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
       "name": "Thundermonger",
       "source": "Tyeia",
       "page": 1,
@@ -132,7 +210,7 @@
         "{@i 5th-level Gunsmith feature}",
         "At 5th level, you've developed the arcane engineering skill to upgrade your Thundercannon to deliver its shots with greater force.",
         "Once per turn, you can deal an extra {@dice 2d6} thunder damage to one creature you hit with an Attack using Thunder Cannon. After discharging this bonus damage, the you cannot deal this bonus damage again until the start of your next turn.",
-        "This extra damage increases by 1d6 when you reach certain levels in this class: 7th level ({@dice 3d6}), 9th level ({@dice 4d6}), 11th level ({@dice 5d6}), 13th level ({@dice 6d6}), 15th level ({@dice 7d6}), 17th level ({@dice 8d6}), and 19th level ({@dice 9d6).",
+        "This extra damage increases by 1d6 when you reach certain levels in this class: 7th level ({@dice 3d6}), 11th level ({@dice 4d6}), 15th level ({@dice 5d6}), 19th level ({@dice 6d6}).",
         {
           "type": "inset",
           "name": "Firearms In a Campaign Setting",
