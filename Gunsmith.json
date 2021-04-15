@@ -209,8 +209,8 @@
       "entries": [
         "{@i 5th-level Gunsmith feature}",
         "At 5th level, you've developed the arcane engineering skill to upgrade your Thundercannon to deliver its shots with greater force.",
-        "Once per turn, you can deal an extra {@dice 2d6} thunder damage to one creature you hit with an Attack using Thunder Cannon. After discharging this bonus damage, the you cannot deal this bonus damage again until the start of your next turn.",
-        "This extra damage increases by 1d6 when you reach certain levels in this class: 7th level ({@dice 3d6}), 11th level ({@dice 4d6}), 15th level ({@dice 5d6}), 19th level ({@dice 6d6}).",
+        "Once per turn, you can deal an extra {@dice 1d6} thunder damage to one creature you hit with an Attack using Thunder Cannon. After discharging this bonus damage, the you cannot deal this bonus damage again until the start of your next turn.",
+        "This extra damage increases by 1d6 when you reach certain levels in this class: 7th level ({@dice 2d6}), 11th level ({@dice 3d6}), 15th level ({@dice 4d6}), 19th level ({@dice 5d6}).",
         {
           "type": "inset",
           "name": "Firearms In a Campaign Setting",
@@ -317,6 +317,13 @@
       ],
       "prerequisite": [
         {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          },
           "feature": [
             "Incompatible with Silencer"
           ]
